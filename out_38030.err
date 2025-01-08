@@ -1,0 +1,25 @@
+Currently Loaded Modulefiles:
+ 1) oneAPI/2021.2.0(default)                  3) anaconda3/2023.03(default)  
+ 2) mpi/intel/2021.2.0(default:default:mpi)  
+
+Key:
+(symbolic-version)  
+/public/home/xujh/.conda/envs/schnet/lib/python3.10/site-packages/pytorch_lightning/utilities/parsing.py:209: Attribute 'model' is an instance of `nn.Module` and is already saved during checkpointing. It is recommended to ignore them using `self.save_hyperparameters(ignore=['model'])`.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+
+  | Name    | Type                   | Params | Mode 
+-----------------------------------------------------------
+0 | model   | NeuralNetworkPotential | 642 K  | train
+1 | outputs | ModuleList             | 0      | train
+-----------------------------------------------------------
+642 K     Trainable params
+0         Non-trainable params
+642 K     Total params
+2.571     Total estimated model params size (MB)
+76        Modules in train mode
+0         Modules in eval mode
+/public/home/xujh/.conda/envs/schnet/lib/python3.10/site-packages/pytorch_lightning/core/saving.py:363: Skipping 'outputs' parameter because it is not possible to safely dump to YAML.
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=5` reached.

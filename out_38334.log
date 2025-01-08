@@ -1,0 +1,4012 @@
+============================================================
+MKLROOT=/public/apps/intel/oneapi/mkl/2021.2.0
+============================================================
+Job ID: sub
+Job name: sub
+Number of nodes: 2
+Number of processors: 32
+Task is running on the following nodes:
+node[5-6]
+OMP_NUM_THREADS = 1
+============================================================
+
+predict results: tensor([[[ 5.8615e+01,  2.0714e+01, -1.2095e-02],
+         [ 2.0714e+01,  9.7133e+01, -1.0074e-02],
+         [-1.2095e-02, -1.0074e-02,  4.6610e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 5.8615e+01,  2.0714e+01, -1.2095e-02],
+         [ 2.0714e+01,  9.7133e+01, -1.0074e-02],
+         [-1.2095e-02, -1.0074e-02,  4.6610e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.9702,  2.7132,  4.3224],
+         [ 2.7132, 85.9005,  2.7817],
+         [ 4.3224,  2.7817, 79.3678]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.9702,  2.7132,  4.3224],
+         [ 2.7132, 85.9005,  2.7817],
+         [ 4.3224,  2.7817, 79.3678]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[98.0284,  0.5170, -3.9936],
+         [ 0.5170, 75.2810,  0.4534],
+         [-3.9936,  0.4534, 56.5805]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[98.0284,  0.5170, -3.9936],
+         [ 0.5170, 75.2810,  0.4534],
+         [-3.9936,  0.4534, 56.5805]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.0261,  3.5068,  1.4617],
+         [ 3.5068, 63.1357,  0.4657],
+         [ 1.4617,  0.4657, 36.3620]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.0261,  3.5068,  1.4617],
+         [ 3.5068, 63.1357,  0.4657],
+         [ 1.4617,  0.4657, 36.3620]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.5976,  2.8705,  1.9783],
+         [ 2.8705, 88.0624,  4.8021],
+         [ 1.9783,  4.8021, 80.9584]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.5976,  2.8705,  1.9783],
+         [ 2.8705, 88.0624,  4.8021],
+         [ 1.9783,  4.8021, 80.9584]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 75.2193, -13.4194,  -1.6200],
+         [-13.4194,  89.8465,   3.8853],
+         [ -1.6200,   3.8853,  66.0343]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 75.2193, -13.4194,  -1.6200],
+         [-13.4194,  89.8465,   3.8853],
+         [ -1.6200,   3.8853,  66.0343]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.1228,  6.9257,  1.2432],
+         [ 6.9257, 77.2637,  8.7101],
+         [ 1.2432,  8.7101, 79.8646]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.1228,  6.9257,  1.2432],
+         [ 6.9257, 77.2637,  8.7101],
+         [ 1.2432,  8.7101, 79.8646]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.1624,  0.7024, -0.2376],
+         [ 0.7024, 72.9709,  0.4632],
+         [-0.2376,  0.4632, 70.7064]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.1624,  0.7024, -0.2376],
+         [ 0.7024, 72.9709,  0.4632],
+         [-0.2376,  0.4632, 70.7064]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.0402e+01, -3.5541e-02,  5.2084e-01],
+         [-3.5541e-02,  7.8909e+01,  3.1497e+00],
+         [ 5.2084e-01,  3.1497e+00,  6.9956e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.0402e+01, -3.5541e-02,  5.2084e-01],
+         [-3.5541e-02,  7.8909e+01,  3.1497e+00],
+         [ 5.2084e-01,  3.1497e+00,  6.9956e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[89.5456, -7.6344,  0.3469],
+         [-7.6344, 71.9625, -1.9914],
+         [ 0.3469, -1.9914, 66.1623]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[89.5456, -7.6344,  0.3469],
+         [-7.6344, 71.9625, -1.9914],
+         [ 0.3469, -1.9914, 66.1623]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 69.3189,   4.5349, -11.0960],
+         [  4.5349,  62.4612,  -1.9965],
+         [-11.0960,  -1.9965,  78.9238]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 69.3189,   4.5349, -11.0960],
+         [  4.5349,  62.4612,  -1.9965],
+         [-11.0960,  -1.9965,  78.9238]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[105.5980,  13.6675,   0.4905],
+         [ 13.6675,  77.3366,   2.4591],
+         [  0.4905,   2.4591,  59.8171]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[105.5980,  13.6675,   0.4905],
+         [ 13.6675,  77.3366,   2.4591],
+         [  0.4905,   2.4591,  59.8171]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.6188,  1.1179, 13.4997],
+         [ 1.1179, 70.2541,  6.2286],
+         [13.4997,  6.2286, 77.9517]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.6188,  1.1179, 13.4997],
+         [ 1.1179, 70.2541,  6.2286],
+         [13.4997,  6.2286, 77.9517]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.3377,  0.6051,  3.3089],
+         [ 0.6051, 78.4515, -0.4007],
+         [ 3.3089, -0.4007, 64.2690]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.3377,  0.6051,  3.3089],
+         [ 0.6051, 78.4515, -0.4007],
+         [ 3.3089, -0.4007, 64.2690]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.7041,  3.0310, -1.6870],
+         [ 3.0310, 70.3586,  0.7621],
+         [-1.6870,  0.7621, 61.0161]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.7041,  3.0310, -1.6870],
+         [ 3.0310, 70.3586,  0.7621],
+         [-1.6870,  0.7621, 61.0161]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 79.9585,  -3.1630, -10.9806],
+         [ -3.1630,  64.8269,  11.8497],
+         [-10.9806,  11.8497,  65.3349]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 79.9585,  -3.1630, -10.9806],
+         [ -3.1630,  64.8269,  11.8497],
+         [-10.9806,  11.8497,  65.3349]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[106.8802,   8.4376,   0.4987],
+         [  8.4376,  68.7117,  -0.2169],
+         [  0.4987,  -0.2169,  61.0809]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[106.8802,   8.4376,   0.4987],
+         [  8.4376,  68.7117,  -0.2169],
+         [  0.4987,  -0.2169,  61.0809]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[107.8941,   2.3182,  -3.4624],
+         [  2.3182,  64.8242,   0.3882],
+         [ -3.4624,   0.3882,  62.6641]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[107.8941,   2.3182,  -3.4624],
+         [  2.3182,  64.8242,   0.3882],
+         [ -3.4624,   0.3882,  62.6641]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[64.1698, -0.7516, -2.8243],
+         [-0.7516, 59.5619, -0.5487],
+         [-2.8243, -0.5487, 65.4982]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[64.1698, -0.7516, -2.8243],
+         [-0.7516, 59.5619, -0.5487],
+         [-2.8243, -0.5487, 65.4982]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.5231,  5.5226, -0.1174],
+         [ 5.5226, 47.0656, -0.0930],
+         [-0.1174, -0.0930, 42.7543]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.5231,  5.5226, -0.1174],
+         [ 5.5226, 47.0656, -0.0930],
+         [-0.1174, -0.0930, 42.7543]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.8468, -6.1714,  8.4234],
+         [-6.1714, 74.8016, -2.4203],
+         [ 8.4234, -2.4203, 59.3303]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.8468, -6.1714,  8.4234],
+         [-6.1714, 74.8016, -2.4203],
+         [ 8.4234, -2.4203, 59.3303]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.6120, -2.7574,  7.4577],
+         [-2.7574, 75.0480,  0.3324],
+         [ 7.4577,  0.3324, 45.8223]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.6120, -2.7574,  7.4577],
+         [-2.7574, 75.0480,  0.3324],
+         [ 7.4577,  0.3324, 45.8223]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 5.6425e+01, -5.7389e-01,  1.3884e-02],
+         [-5.7389e-01,  5.4874e+01,  4.6893e-02],
+         [ 1.3884e-02,  4.6893e-02,  3.5040e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 5.6425e+01, -5.7389e-01,  1.3884e-02],
+         [-5.7389e-01,  5.4874e+01,  4.6893e-02],
+         [ 1.3884e-02,  4.6893e-02,  3.5040e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[114.5373,   2.1024,   2.2334],
+         [  2.1024,  82.3195,   6.0749],
+         [  2.2334,   6.0749,  64.3550]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[114.5373,   2.1024,   2.2334],
+         [  2.1024,  82.3195,   6.0749],
+         [  2.2334,   6.0749,  64.3550]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 79.2954,  12.5987, -14.1725],
+         [ 12.5987,  69.4896, -10.0296],
+         [-14.1725, -10.0296,  77.5704]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 79.2954,  12.5987, -14.1725],
+         [ 12.5987,  69.4896, -10.0296],
+         [-14.1725, -10.0296,  77.5704]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.4197,  2.5283,  4.5530],
+         [ 2.5283, 76.6749, -5.5855],
+         [ 4.5530, -5.5855, 55.0217]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.4197,  2.5283,  4.5530],
+         [ 2.5283, 76.6749, -5.5855],
+         [ 4.5530, -5.5855, 55.0217]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.0907, -2.4414, -1.8779],
+         [-2.4414, 62.9271,  1.7245],
+         [-1.8779,  1.7245, 64.7774]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.0907, -2.4414, -1.8779],
+         [-2.4414, 62.9271,  1.7245],
+         [-1.8779,  1.7245, 64.7774]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.8195e+01, -3.4255e-02, -4.6242e+00],
+         [-3.4255e-02,  5.8620e+01,  7.1827e+00],
+         [-4.6242e+00,  7.1827e+00,  5.6856e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.8195e+01, -3.4255e-02, -4.6242e+00],
+         [-3.4255e-02,  5.8620e+01,  7.1827e+00],
+         [-4.6242e+00,  7.1827e+00,  5.6856e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[124.9730,  11.5179,   7.5192],
+         [ 11.5179,  64.3643,   7.3305],
+         [  7.5192,   7.3305,  66.9706]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[124.9730,  11.5179,   7.5192],
+         [ 11.5179,  64.3643,   7.3305],
+         [  7.5192,   7.3305,  66.9706]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.9607, -4.0712, -1.4113],
+         [-4.0712, 73.1206, -9.5251],
+         [-1.4113, -9.5251, 62.9403]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.9607, -4.0712, -1.4113],
+         [-4.0712, 73.1206, -9.5251],
+         [-1.4113, -9.5251, 62.9403]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.2003e+01,  9.4730e+00, -1.9186e-02],
+         [ 9.4730e+00,  7.1536e+01, -2.8084e-02],
+         [-1.9186e-02, -2.8084e-02,  6.2066e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.2003e+01,  9.4730e+00, -1.9186e-02],
+         [ 9.4730e+00,  7.1536e+01, -2.8084e-02],
+         [-1.9186e-02, -2.8084e-02,  6.2066e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.2788,  1.8442, -1.3857],
+         [ 1.8442, 79.9564,  3.3424],
+         [-1.3857,  3.3424, 81.1596]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.2788,  1.8442, -1.3857],
+         [ 1.8442, 79.9564,  3.3424],
+         [-1.3857,  3.3424, 81.1596]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 64.1449,   5.9502, -10.6684],
+         [  5.9502,  82.5462,   7.8740],
+         [-10.6684,   7.8740,  77.2638]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 64.1449,   5.9502, -10.6684],
+         [  5.9502,  82.5462,   7.8740],
+         [-10.6684,   7.8740,  77.2638]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[93.9714, 11.9671, -9.2719],
+         [11.9671, 94.9753,  2.6570],
+         [-9.2719,  2.6570, 66.7652]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[93.9714, 11.9671, -9.2719],
+         [11.9671, 94.9753,  2.6570],
+         [-9.2719,  2.6570, 66.7652]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.9163,  5.0691, -7.8803],
+         [ 5.0691, 83.3943,  1.7082],
+         [-7.8803,  1.7082, 57.6963]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.9163,  5.0691, -7.8803],
+         [ 5.0691, 83.3943,  1.7082],
+         [-7.8803,  1.7082, 57.6963]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 6.9544e+01,  1.6910e-01,  1.3174e-01],
+         [ 1.6910e-01,  6.0891e+01, -4.1751e-02],
+         [ 1.3174e-01, -4.1751e-02,  4.1024e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 6.9544e+01,  1.6910e-01,  1.3174e-01],
+         [ 1.6910e-01,  6.0891e+01, -4.1751e-02],
+         [ 1.3174e-01, -4.1751e-02,  4.1024e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[61.7423,  3.5269,  3.3175],
+         [ 3.5269, 66.4967,  0.7575],
+         [ 3.3175,  0.7575, 65.1333]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[61.7423,  3.5269,  3.3175],
+         [ 3.5269, 66.4967,  0.7575],
+         [ 3.3175,  0.7575, 65.1333]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[85.2741,  6.8656,  1.8627],
+         [ 6.8656, 87.1563, -1.7606],
+         [ 1.8627, -1.7606, 59.3404]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[85.2741,  6.8656,  1.8627],
+         [ 6.8656, 87.1563, -1.7606],
+         [ 1.8627, -1.7606, 59.3404]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.4186, -1.3233, -8.2656],
+         [-1.3233, 64.4635, -0.6328],
+         [-8.2656, -0.6328, 44.1513]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.4186, -1.3233, -8.2656],
+         [-1.3233, 64.4635, -0.6328],
+         [-8.2656, -0.6328, 44.1513]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.4930,  8.6613, -4.0237],
+         [ 8.6613, 98.0306,  0.1442],
+         [-4.0237,  0.1442, 78.9641]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.4930,  8.6613, -4.0237],
+         [ 8.6613, 98.0306,  0.1442],
+         [-4.0237,  0.1442, 78.9641]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.1963, 24.1261, 15.8786],
+         [24.1261, 73.4130,  8.4805],
+         [15.8786,  8.4805, 61.9059]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.1963, 24.1261, 15.8786],
+         [24.1261, 73.4130,  8.4805],
+         [15.8786,  8.4805, 61.9059]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 1.7057e+02,  1.4060e+01, -6.8454e-04],
+         [ 1.4060e+01,  6.6308e+01, -7.4194e-04],
+         [-6.8454e-04, -7.4194e-04,  5.6196e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 1.7057e+02,  1.4060e+01, -6.8454e-04],
+         [ 1.4060e+01,  6.6308e+01, -7.4194e-04],
+         [-6.8454e-04, -7.4194e-04,  5.6196e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.8820,  1.5777,  0.7378],
+         [ 1.5777, 93.3383, -4.1269],
+         [ 0.7378, -4.1269, 50.5444]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.8820,  1.5777,  0.7378],
+         [ 1.5777, 93.3383, -4.1269],
+         [ 0.7378, -4.1269, 50.5444]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 72.4903,  23.8794,   1.4800],
+         [ 23.8794,  83.2807, -11.4600],
+         [  1.4800, -11.4600,  72.2333]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 72.4903,  23.8794,   1.4800],
+         [ 23.8794,  83.2807, -11.4600],
+         [  1.4800, -11.4600,  72.2333]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.5587, -7.6358,  4.0501],
+         [-7.6358, 68.0059,  1.3184],
+         [ 4.0501,  1.3184, 46.1092]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.5587, -7.6358,  4.0501],
+         [-7.6358, 68.0059,  1.3184],
+         [ 4.0501,  1.3184, 46.1092]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[52.1689, -1.6440, -5.0342],
+         [-1.6440, 78.0443,  0.4722],
+         [-5.0342,  0.4722, 65.2845]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[52.1689, -1.6440, -5.0342],
+         [-1.6440, 78.0443,  0.4722],
+         [-5.0342,  0.4722, 65.2845]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[55.2801,  8.1093, -3.3903],
+         [ 8.1093, 65.1893,  4.5741],
+         [-3.3903,  4.5741, 63.2105]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[55.2801,  8.1093, -3.3903],
+         [ 8.1093, 65.1893,  4.5741],
+         [-3.3903,  4.5741, 63.2105]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[57.6854,  7.9936, -7.3299],
+         [ 7.9936, 71.6620,  4.4305],
+         [-7.3299,  4.4305, 63.1724]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[57.6854,  7.9936, -7.3299],
+         [ 7.9936, 71.6620,  4.4305],
+         [-7.3299,  4.4305, 63.1724]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[55.5972, 12.3833,  7.1541],
+         [12.3833, 77.5540, -7.0357],
+         [ 7.1541, -7.0357, 60.8692]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[55.5972, 12.3833,  7.1541],
+         [12.3833, 77.5540, -7.0357],
+         [ 7.1541, -7.0357, 60.8692]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[57.4134,  6.6503, -1.8725],
+         [ 6.6503, 74.0551,  3.8649],
+         [-1.8725,  3.8649, 69.6106]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[57.4134,  6.6503, -1.8725],
+         [ 6.6503, 74.0551,  3.8649],
+         [-1.8725,  3.8649, 69.6106]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 78.3691,   0.5789, -10.7937],
+         [  0.5789,  65.0011,   0.1250],
+         [-10.7937,   0.1250,  58.6450]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 78.3691,   0.5789, -10.7937],
+         [  0.5789,  65.0011,   0.1250],
+         [-10.7937,   0.1250,  58.6450]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 1.1569e+02,  8.8535e+00, -8.0344e+00],
+         [ 8.8535e+00,  5.9155e+01,  2.8651e-02],
+         [-8.0344e+00,  2.8651e-02,  6.3389e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 1.1569e+02,  8.8535e+00, -8.0344e+00],
+         [ 8.8535e+00,  5.9155e+01,  2.8651e-02],
+         [-8.0344e+00,  2.8651e-02,  6.3389e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.1350,  2.1241,  3.3568],
+         [ 2.1241, 75.4016,  0.9804],
+         [ 3.3568,  0.9804, 75.6589]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.1350,  2.1241,  3.3568],
+         [ 2.1241, 75.4016,  0.9804],
+         [ 3.3568,  0.9804, 75.6589]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 79.9366,   0.1881, -13.9301],
+         [  0.1881,  76.4982,   1.9345],
+         [-13.9301,   1.9345,  77.8123]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 79.9366,   0.1881, -13.9301],
+         [  0.1881,  76.4982,   1.9345],
+         [-13.9301,   1.9345,  77.8123]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.1931,  6.9288, -6.4970],
+         [ 6.9288, 78.1781, -1.3773],
+         [-6.4970, -1.3773, 71.6771]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.1931,  6.9288, -6.4970],
+         [ 6.9288, 78.1781, -1.3773],
+         [-6.4970, -1.3773, 71.6771]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 83.1478,  10.7910,  -4.1493],
+         [ 10.7910,  94.4903, -14.0499],
+         [ -4.1493, -14.0499,  78.8080]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 83.1478,  10.7910,  -4.1493],
+         [ 10.7910,  94.4903, -14.0499],
+         [ -4.1493, -14.0499,  78.8080]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.4093,  4.9441, -5.6251],
+         [ 4.9441, 74.9874, -1.3691],
+         [-5.6251, -1.3691, 79.1532]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.4093,  4.9441, -5.6251],
+         [ 4.9441, 74.9874, -1.3691],
+         [-5.6251, -1.3691, 79.1532]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.0883e+01, -6.6401e+00, -2.0572e+00],
+         [-6.6401e+00,  1.0217e+02, -8.8671e-02],
+         [-2.0572e+00, -8.8671e-02,  6.1003e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.0883e+01, -6.6401e+00, -2.0572e+00],
+         [-6.6401e+00,  1.0217e+02, -8.8671e-02],
+         [-2.0572e+00, -8.8671e-02,  6.1003e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.9844,  1.9240,  7.7264],
+         [ 1.9240, 70.1456, -2.1427],
+         [ 7.7264, -2.1427, 61.0561]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.9844,  1.9240,  7.7264],
+         [ 1.9240, 70.1456, -2.1427],
+         [ 7.7264, -2.1427, 61.0561]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 97.7724,   6.6153, -12.8982],
+         [  6.6153,  71.2529,  -3.5983],
+         [-12.8982,  -3.5983,  76.3725]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 97.7724,   6.6153, -12.8982],
+         [  6.6153,  71.2529,  -3.5983],
+         [-12.8982,  -3.5983,  76.3725]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.2757,  9.1192,  6.0175],
+         [ 9.1192, 70.2568,  5.6362],
+         [ 6.0175,  5.6362, 59.5198]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.2757,  9.1192,  6.0175],
+         [ 9.1192, 70.2568,  5.6362],
+         [ 6.0175,  5.6362, 59.5198]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.5006, -6.9169, -0.4943],
+         [-6.9169, 88.8581,  2.6611],
+         [-0.4943,  2.6611, 67.1984]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.5006, -6.9169, -0.4943],
+         [-6.9169, 88.8581,  2.6611],
+         [-0.4943,  2.6611, 67.1984]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[59.5734,  2.3866,  2.1597],
+         [ 2.3866, 73.4217,  5.0882],
+         [ 2.1597,  5.0882, 64.2625]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[59.5734,  2.3866,  2.1597],
+         [ 2.3866, 73.4217,  5.0882],
+         [ 2.1597,  5.0882, 64.2625]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[8.2217e+01, 2.9019e-02, 3.8535e+00],
+         [2.9019e-02, 6.9799e+01, 5.1908e-02],
+         [3.8535e+00, 5.1908e-02, 7.0196e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[8.2217e+01, 2.9019e-02, 3.8535e+00],
+         [2.9019e-02, 6.9799e+01, 5.1908e-02],
+         [3.8535e+00, 5.1908e-02, 7.0196e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.2562, -3.2338,  3.6730],
+         [-3.2338, 86.4477, -5.5835],
+         [ 3.6730, -5.5835, 61.1768]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.2562, -3.2338,  3.6730],
+         [-3.2338, 86.4477, -5.5835],
+         [ 3.6730, -5.5835, 61.1768]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.3550,  8.0314, -7.2257],
+         [ 8.0314, 86.1102, -2.5124],
+         [-7.2257, -2.5124, 74.5868]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.3550,  8.0314, -7.2257],
+         [ 8.0314, 86.1102, -2.5124],
+         [-7.2257, -2.5124, 74.5868]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[9.7812e+01, 1.1693e+00, 1.7824e-02],
+         [1.1693e+00, 5.6426e+01, 1.5763e-02],
+         [1.7824e-02, 1.5763e-02, 3.9200e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[9.7812e+01, 1.1693e+00, 1.7824e-02],
+         [1.1693e+00, 5.6426e+01, 1.5763e-02],
+         [1.7824e-02, 1.5763e-02, 3.9200e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 74.0555,  22.6935,  -6.0409],
+         [ 22.6935, 101.9787,  -2.9607],
+         [ -6.0409,  -2.9607,  61.8196]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 74.0555,  22.6935,  -6.0409],
+         [ 22.6935, 101.9787,  -2.9607],
+         [ -6.0409,  -2.9607,  61.8196]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.7416, 15.5778, -2.9375],
+         [15.5778, 89.5836, -5.1418],
+         [-2.9375, -5.1418, 62.2873]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.7416, 15.5778, -2.9375],
+         [15.5778, 89.5836, -5.1418],
+         [-2.9375, -5.1418, 62.2873]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[62.6056,  6.7874, -1.0037],
+         [ 6.7874, 81.9073, 15.6861],
+         [-1.0037, 15.6861, 66.3736]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[62.6056,  6.7874, -1.0037],
+         [ 6.7874, 81.9073, 15.6861],
+         [-1.0037, 15.6861, 66.3736]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.3691, 12.6722,  1.7879],
+         [12.6722, 83.8034,  3.6610],
+         [ 1.7879,  3.6610, 54.0543]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.3691, 12.6722,  1.7879],
+         [12.6722, 83.8034,  3.6610],
+         [ 1.7879,  3.6610, 54.0543]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.6961e+01,  3.5151e-02, -2.7874e+00],
+         [ 3.5151e-02,  7.7383e+01, -8.1816e-03],
+         [-2.7874e+00, -8.1816e-03,  7.8095e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.6961e+01,  3.5151e-02, -2.7874e+00],
+         [ 3.5151e-02,  7.7383e+01, -8.1816e-03],
+         [-2.7874e+00, -8.1816e-03,  7.8095e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.7567,  2.9941, -1.7108],
+         [ 2.9941, 90.2543,  2.3548],
+         [-1.7108,  2.3548, 77.9886]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.7567,  2.9941, -1.7108],
+         [ 2.9941, 90.2543,  2.3548],
+         [-1.7108,  2.3548, 77.9886]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.8156,  0.1356, -5.1026],
+         [ 0.1356, 73.8449, -2.6629],
+         [-5.1026, -2.6629, 52.0958]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.8156,  0.1356, -5.1026],
+         [ 0.1356, 73.8449, -2.6629],
+         [-5.1026, -2.6629, 52.0958]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.4012,  4.9274,  1.0204],
+         [ 4.9274, 86.6855,  4.5780],
+         [ 1.0204,  4.5780, 83.6042]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.4012,  4.9274,  1.0204],
+         [ 4.9274, 86.6855,  4.5780],
+         [ 1.0204,  4.5780, 83.6042]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.4145, -5.1945,  2.0676],
+         [-5.1945, 67.4167,  3.9317],
+         [ 2.0676,  3.9317, 59.4772]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.4145, -5.1945,  2.0676],
+         [-5.1945, 67.4167,  3.9317],
+         [ 2.0676,  3.9317, 59.4772]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.3537,  0.2464,  1.9838],
+         [ 0.2464, 77.2627, -5.3267],
+         [ 1.9838, -5.3267, 59.4381]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.3537,  0.2464,  1.9838],
+         [ 0.2464, 77.2627, -5.3267],
+         [ 1.9838, -5.3267, 59.4381]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.9923e+01,  2.9564e+00, -2.2577e-02],
+         [ 2.9564e+00,  9.6960e+01,  1.3568e-01],
+         [-2.2577e-02,  1.3568e-01,  5.3672e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.9923e+01,  2.9564e+00, -2.2577e-02],
+         [ 2.9564e+00,  9.6960e+01,  1.3568e-01],
+         [-2.2577e-02,  1.3568e-01,  5.3672e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.9717,  1.8291, -4.1315],
+         [ 1.8291, 78.8340,  1.2822],
+         [-4.1315,  1.2822, 81.8277]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.9717,  1.8291, -4.1315],
+         [ 1.8291, 78.8340,  1.2822],
+         [-4.1315,  1.2822, 81.8277]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.7170,  7.1088, -9.5986],
+         [ 7.1088, 78.9750, -0.8601],
+         [-9.5986, -0.8601, 64.6788]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.7170,  7.1088, -9.5986],
+         [ 7.1088, 78.9750, -0.8601],
+         [-9.5986, -0.8601, 64.6788]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 6.6786e+01,  7.1648e-01, -3.8327e-01],
+         [ 7.1648e-01,  6.4538e+01,  1.6379e-02],
+         [-3.8327e-01,  1.6379e-02,  6.4483e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 6.6786e+01,  7.1648e-01, -3.8327e-01],
+         [ 7.1648e-01,  6.4538e+01,  1.6379e-02],
+         [-3.8327e-01,  1.6379e-02,  6.4483e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[107.5858,  16.6018,   3.5650],
+         [ 16.6018,  96.6114,  12.9396],
+         [  3.5650,  12.9396,  73.0855]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[107.5858,  16.6018,   3.5650],
+         [ 16.6018,  96.6114,  12.9396],
+         [  3.5650,  12.9396,  73.0855]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[9.9654e+01, 6.7445e+00, 2.3442e-01],
+         [6.7445e+00, 9.6359e+01, 3.7641e-02],
+         [2.3442e-01, 3.7641e-02, 5.7072e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[9.9654e+01, 6.7445e+00, 2.3442e-01],
+         [6.7445e+00, 9.6359e+01, 3.7641e-02],
+         [2.3442e-01, 3.7641e-02, 5.7072e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 78.5654,   1.5289, -13.2929],
+         [  1.5289,  75.1988,   6.0016],
+         [-13.2929,   6.0016,  70.0504]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 78.5654,   1.5289, -13.2929],
+         [  1.5289,  75.1988,   6.0016],
+         [-13.2929,   6.0016,  70.0504]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[96.7102,  1.7752, -1.5014],
+         [ 1.7752, 92.3486,  2.5119],
+         [-1.5014,  2.5119, 77.3005]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[96.7102,  1.7752, -1.5014],
+         [ 1.7752, 92.3486,  2.5119],
+         [-1.5014,  2.5119, 77.3005]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.6302e+01, -1.2005e+00, -6.7010e-03],
+         [-1.2005e+00,  7.3963e+01,  3.0304e+00],
+         [-6.7010e-03,  3.0304e+00,  6.6352e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.6302e+01, -1.2005e+00, -6.7010e-03],
+         [-1.2005e+00,  7.3963e+01,  3.0304e+00],
+         [-6.7010e-03,  3.0304e+00,  6.6352e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[60.4228,  1.2515,  5.0529],
+         [ 1.2515, 77.8679,  6.2235],
+         [ 5.0529,  6.2235, 76.5589]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[60.4228,  1.2515,  5.0529],
+         [ 1.2515, 77.8679,  6.2235],
+         [ 5.0529,  6.2235, 76.5589]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[98.4955,  5.5622, -5.2079],
+         [ 5.5622, 89.4209, -2.5782],
+         [-5.2079, -2.5782, 72.3585]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[98.4955,  5.5622, -5.2079],
+         [ 5.5622, 89.4209, -2.5782],
+         [-5.2079, -2.5782, 72.3585]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 73.0209,  -2.9973, -10.2009],
+         [ -2.9973,  89.3742,   0.3779],
+         [-10.2009,   0.3779,  66.5304]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 73.0209,  -2.9973, -10.2009],
+         [ -2.9973,  89.3742,   0.3779],
+         [-10.2009,   0.3779,  66.5304]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.0926, 18.2535, -9.6598],
+         [18.2535, 90.5635, -2.8574],
+         [-9.6598, -2.8574, 69.3456]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.0926, 18.2535, -9.6598],
+         [18.2535, 90.5635, -2.8574],
+         [-9.6598, -2.8574, 69.3456]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[85.6131, -6.5681, 10.1989],
+         [-6.5681, 78.0842, -2.9744],
+         [10.1989, -2.9744, 70.3995]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[85.6131, -6.5681, 10.1989],
+         [-6.5681, 78.0842, -2.9744],
+         [10.1989, -2.9744, 70.3995]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.0441,  3.7869, -0.5078],
+         [ 3.7869, 59.8638, -1.7523],
+         [-0.5078, -1.7523, 55.2295]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.0441,  3.7869, -0.5078],
+         [ 3.7869, 59.8638, -1.7523],
+         [-0.5078, -1.7523, 55.2295]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.1318,  3.7429, 11.2465],
+         [ 3.7429, 79.7291,  1.0091],
+         [11.2465,  1.0091, 55.4630]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.1318,  3.7429, 11.2465],
+         [ 3.7429, 79.7291,  1.0091],
+         [11.2465,  1.0091, 55.4630]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.1398, -9.3292, -0.9079],
+         [-9.3292, 87.6638,  9.3627],
+         [-0.9079,  9.3627, 67.7537]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.1398, -9.3292, -0.9079],
+         [-9.3292, 87.6638,  9.3627],
+         [-0.9079,  9.3627, 67.7537]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.8922, 17.4330,  1.2581],
+         [17.4330, 83.1921, 12.2136],
+         [ 1.2581, 12.2136, 60.4047]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.8922, 17.4330,  1.2581],
+         [17.4330, 83.1921, 12.2136],
+         [ 1.2581, 12.2136, 60.4047]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.6369, -1.5960, -2.5615],
+         [-1.5960, 80.0913,  0.2653],
+         [-2.5615,  0.2653, 48.8901]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.6369, -1.5960, -2.5615],
+         [-1.5960, 80.0913,  0.2653],
+         [-2.5615,  0.2653, 48.8901]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.1588,  1.0356,  4.5790],
+         [ 1.0356, 54.7817,  0.1616],
+         [ 4.5790,  0.1616, 51.0972]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.1588,  1.0356,  4.5790],
+         [ 1.0356, 54.7817,  0.1616],
+         [ 4.5790,  0.1616, 51.0972]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[93.9809,  6.7015, -0.1729],
+         [ 6.7015, 76.8135,  1.9297],
+         [-0.1729,  1.9297, 71.9364]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[93.9809,  6.7015, -0.1729],
+         [ 6.7015, 76.8135,  1.9297],
+         [-0.1729,  1.9297, 71.9364]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 94.8577,   1.7088,   0.4628],
+         [  1.7088, 104.7240,  -8.5311],
+         [  0.4628,  -8.5311,  59.1126]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 94.8577,   1.7088,   0.4628],
+         [  1.7088, 104.7240,  -8.5311],
+         [  0.4628,  -8.5311,  59.1126]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[1.0474e+02, 2.6985e+00, 2.2385e-01],
+         [2.6985e+00, 7.0959e+01, 1.1267e-03],
+         [2.2385e-01, 1.1267e-03, 4.5344e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[1.0474e+02, 2.6985e+00, 2.2385e-01],
+         [2.6985e+00, 7.0959e+01, 1.1267e-03],
+         [2.2385e-01, 1.1267e-03, 4.5344e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 69.7360,  -4.4500,  -0.3871],
+         [ -4.4500, 107.5277,  -0.3402],
+         [ -0.3871,  -0.3402,  43.1338]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 69.7360,  -4.4500,  -0.3871],
+         [ -4.4500, 107.5277,  -0.3402],
+         [ -0.3871,  -0.3402,  43.1338]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[63.9860,  6.0885,  4.2681],
+         [ 6.0885, 66.9367,  7.9826],
+         [ 4.2681,  7.9826, 63.4335]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[63.9860,  6.0885,  4.2681],
+         [ 6.0885, 66.9367,  7.9826],
+         [ 4.2681,  7.9826, 63.4335]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.8095,  5.1734, -1.4472],
+         [ 5.1734, 78.5296,  0.4753],
+         [-1.4472,  0.4753, 78.6272]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.8095,  5.1734, -1.4472],
+         [ 5.1734, 78.5296,  0.4753],
+         [-1.4472,  0.4753, 78.6272]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.7269, 18.5267,  4.1516],
+         [18.5267, 82.8831,  4.1249],
+         [ 4.1516,  4.1249, 59.5440]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.7269, 18.5267,  4.1516],
+         [18.5267, 82.8831,  4.1249],
+         [ 4.1516,  4.1249, 59.5440]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.2998, -7.8029, -0.6639],
+         [-7.8029, 68.8318,  1.1656],
+         [-0.6639,  1.1656, 51.3330]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.2998, -7.8029, -0.6639],
+         [-7.8029, 68.8318,  1.1656],
+         [-0.6639,  1.1656, 51.3330]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.4279,  5.6664,  7.4488],
+         [ 5.6664, 94.9483,  0.2681],
+         [ 7.4488,  0.2681, 70.6101]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.4279,  5.6664,  7.4488],
+         [ 5.6664, 94.9483,  0.2681],
+         [ 7.4488,  0.2681, 70.6101]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[61.4882,  3.0381, -2.3575],
+         [ 3.0381, 70.0019,  1.8072],
+         [-2.3575,  1.8072, 76.0044]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[61.4882,  3.0381, -2.3575],
+         [ 3.0381, 70.0019,  1.8072],
+         [-2.3575,  1.8072, 76.0044]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[71.0764,  3.2594,  3.1449],
+         [ 3.2594, 86.9562,  1.3287],
+         [ 3.1449,  1.3287, 73.8307]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[71.0764,  3.2594,  3.1449],
+         [ 3.2594, 86.9562,  1.3287],
+         [ 3.1449,  1.3287, 73.8307]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.0796, -1.6457, -0.7013],
+         [-1.6457, 73.9736, -0.7312],
+         [-0.7013, -0.7312, 66.0611]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.0796, -1.6457, -0.7013],
+         [-1.6457, 73.9736, -0.7312],
+         [-0.7013, -0.7312, 66.0611]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.1457, -2.0747,  0.5780],
+         [-2.0747, 74.2608, -1.5805],
+         [ 0.5780, -1.5805, 57.5363]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.1457, -2.0747,  0.5780],
+         [-2.0747, 74.2608, -1.5805],
+         [ 0.5780, -1.5805, 57.5363]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.5724,  2.3474, -5.6901],
+         [ 2.3474, 82.4289,  0.7870],
+         [-5.6901,  0.7870, 85.2942]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.5724,  2.3474, -5.6901],
+         [ 2.3474, 82.4289,  0.7870],
+         [-5.6901,  0.7870, 85.2942]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[59.1276, -0.9104,  8.0381],
+         [-0.9104, 64.2337, -2.0363],
+         [ 8.0381, -2.0363, 68.0671]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[59.1276, -0.9104,  8.0381],
+         [-0.9104, 64.2337, -2.0363],
+         [ 8.0381, -2.0363, 68.0671]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[8.0448e+01, 2.4138e+00, 4.2859e-01],
+         [2.4138e+00, 7.0776e+01, 7.7024e-02],
+         [4.2859e-01, 7.7024e-02, 7.0488e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[8.0448e+01, 2.4138e+00, 4.2859e-01],
+         [2.4138e+00, 7.0776e+01, 7.7024e-02],
+         [4.2859e-01, 7.7024e-02, 7.0488e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[58.5719,  7.1515, -1.6143],
+         [ 7.1515, 71.9868,  3.1211],
+         [-1.6143,  3.1211, 52.3775]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[58.5719,  7.1515, -1.6143],
+         [ 7.1515, 71.9868,  3.1211],
+         [-1.6143,  3.1211, 52.3775]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[85.5078,  5.2721, -6.8292],
+         [ 5.2721, 78.1350, -1.5165],
+         [-6.8292, -1.5165, 70.2886]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[85.5078,  5.2721, -6.8292],
+         [ 5.2721, 78.1350, -1.5165],
+         [-6.8292, -1.5165, 70.2886]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[89.2471,  5.0690, -2.7822],
+         [ 5.0690, 72.1539, -3.4916],
+         [-2.7822, -3.4916, 69.3083]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[89.2471,  5.0690, -2.7822],
+         [ 5.0690, 72.1539, -3.4916],
+         [-2.7822, -3.4916, 69.3083]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[105.8138,  14.4955,  -4.1210],
+         [ 14.4955, 101.1540, -12.3082],
+         [ -4.1210, -12.3082,  61.6130]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[105.8138,  14.4955,  -4.1210],
+         [ 14.4955, 101.1540, -12.3082],
+         [ -4.1210, -12.3082,  61.6130]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[62.8815, -0.2394,  1.1943],
+         [-0.2394, 62.7172,  0.1092],
+         [ 1.1943,  0.1092, 63.5964]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[62.8815, -0.2394,  1.1943],
+         [-0.2394, 62.7172,  0.1092],
+         [ 1.1943,  0.1092, 63.5964]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 1.0258e+02, -4.7984e+00,  2.1967e-01],
+         [-4.7984e+00,  8.6897e+01, -1.7573e-02],
+         [ 2.1967e-01, -1.7573e-02,  5.8528e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 1.0258e+02, -4.7984e+00,  2.1967e-01],
+         [-4.7984e+00,  8.6897e+01, -1.7573e-02],
+         [ 2.1967e-01, -1.7573e-02,  5.8528e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.5925,  1.0568, 13.1505],
+         [ 1.0568, 73.7262, -0.3179],
+         [13.1505, -0.3179, 66.5968]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.5925,  1.0568, 13.1505],
+         [ 1.0568, 73.7262, -0.3179],
+         [13.1505, -0.3179, 66.5968]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.7466,  7.0540, -0.5278],
+         [ 7.0540, 85.5591,  0.4333],
+         [-0.5278,  0.4333, 77.3375]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.7466,  7.0540, -0.5278],
+         [ 7.0540, 85.5591,  0.4333],
+         [-0.5278,  0.4333, 77.3375]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.7023, -2.0107, -0.3293],
+         [-2.0107, 78.9388, -0.1292],
+         [-0.3293, -0.1292, 61.5733]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.7023, -2.0107, -0.3293],
+         [-2.0107, 78.9388, -0.1292],
+         [-0.3293, -0.1292, 61.5733]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[86.0706,  2.1549,  5.7053],
+         [ 2.1549, 80.4714, -5.3327],
+         [ 5.7053, -5.3327, 71.3799]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[86.0706,  2.1549,  5.7053],
+         [ 2.1549, 80.4714, -5.3327],
+         [ 5.7053, -5.3327, 71.3799]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.0477,  9.2533, -2.8530],
+         [ 9.2533, 75.5262,  0.7039],
+         [-2.8530,  0.7039, 59.0103]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.0477,  9.2533, -2.8530],
+         [ 9.2533, 75.5262,  0.7039],
+         [-2.8530,  0.7039, 59.0103]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[57.9899,  9.2074,  3.9190],
+         [ 9.2074, 94.5486, -4.7987],
+         [ 3.9190, -4.7987, 80.7642]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[57.9899,  9.2074,  3.9190],
+         [ 9.2074, 94.5486, -4.7987],
+         [ 3.9190, -4.7987, 80.7642]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[1.0298e+02, 5.8023e+00, 1.3840e-01],
+         [5.8023e+00, 9.8224e+01, 9.9060e-02],
+         [1.3840e-01, 9.9060e-02, 6.0633e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[1.0298e+02, 5.8023e+00, 1.3840e-01],
+         [5.8023e+00, 9.8224e+01, 9.9060e-02],
+         [1.3840e-01, 9.9060e-02, 6.0633e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.9705,  4.1222,  5.5479],
+         [ 4.1222, 69.5960,  2.1486],
+         [ 5.5479,  2.1486, 65.9697]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.9705,  4.1222,  5.5479],
+         [ 4.1222, 69.5960,  2.1486],
+         [ 5.5479,  2.1486, 65.9697]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[86.8512, -4.4251,  5.1603],
+         [-4.4251, 77.6192,  0.1759],
+         [ 5.1603,  0.1759, 70.4120]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[86.8512, -4.4251,  5.1603],
+         [-4.4251, 77.6192,  0.1759],
+         [ 5.1603,  0.1759, 70.4120]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[65.6430, -1.8019,  0.0724],
+         [-1.8019, 66.2357,  0.9516],
+         [ 0.0724,  0.9516, 59.4707]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[65.6430, -1.8019,  0.0724],
+         [-1.8019, 66.2357,  0.9516],
+         [ 0.0724,  0.9516, 59.4707]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.4227,  3.9932,  3.7886],
+         [ 3.9932, 66.5781, -0.9351],
+         [ 3.7886, -0.9351, 43.4204]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.4227,  3.9932,  3.7886],
+         [ 3.9932, 66.5781, -0.9351],
+         [ 3.7886, -0.9351, 43.4204]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 94.2122, -12.6606,   2.2962],
+         [-12.6606,  85.0327,   0.4748],
+         [  2.2962,   0.4748,  65.1464]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 94.2122, -12.6606,   2.2962],
+         [-12.6606,  85.0327,   0.4748],
+         [  2.2962,   0.4748,  65.1464]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.8189,  7.9118,  0.2471],
+         [ 7.9118, 77.2505,  0.4543],
+         [ 0.2471,  0.4543, 70.5234]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.8189,  7.9118,  0.2471],
+         [ 7.9118, 77.2505,  0.4543],
+         [ 0.2471,  0.4543, 70.5234]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.7111,  9.9710, -9.6048],
+         [ 9.9710, 79.7257, -2.6713],
+         [-9.6048, -2.6713, 61.3911]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.7111,  9.9710, -9.6048],
+         [ 9.9710, 79.7257, -2.6713],
+         [-9.6048, -2.6713, 61.3911]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[97.8918, -1.2730,  8.5370],
+         [-1.2730, 68.2315,  0.1886],
+         [ 8.5370,  0.1886, 54.3164]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[97.8918, -1.2730,  8.5370],
+         [-1.2730, 68.2315,  0.1886],
+         [ 8.5370,  0.1886, 54.3164]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[102.5622,  10.4701,  -0.9281],
+         [ 10.4701,  97.9552,  -2.3210],
+         [ -0.9281,  -2.3210,  57.4660]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[102.5622,  10.4701,  -0.9281],
+         [ 10.4701,  97.9552,  -2.3210],
+         [ -0.9281,  -2.3210,  57.4660]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[89.3464,  1.8002, -0.8089],
+         [ 1.8002, 66.8371, -0.2048],
+         [-0.8089, -0.2048, 64.8323]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[89.3464,  1.8002, -0.8089],
+         [ 1.8002, 66.8371, -0.2048],
+         [-0.8089, -0.2048, 64.8323]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[103.8115,   3.6148,   6.0282],
+         [  3.6148,  58.9391,   2.7022],
+         [  6.0282,   2.7022,  50.8049]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[103.8115,   3.6148,   6.0282],
+         [  3.6148,  58.9391,   2.7022],
+         [  6.0282,   2.7022,  50.8049]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[103.7797,   2.4519,  -4.4797],
+         [  2.4519,  77.4156,  -1.5148],
+         [ -4.4797,  -1.5148,  73.4779]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[103.7797,   2.4519,  -4.4797],
+         [  2.4519,  77.4156,  -1.5148],
+         [ -4.4797,  -1.5148,  73.4779]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[59.3943,  1.1483, -0.2635],
+         [ 1.1483, 60.7401, -0.2746],
+         [-0.2635, -0.2746, 50.8194]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[59.3943,  1.1483, -0.2635],
+         [ 1.1483, 60.7401, -0.2746],
+         [-0.2635, -0.2746, 50.8194]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.6907,  3.4237,  2.7657],
+         [ 3.4237, 72.8134,  3.6799],
+         [ 2.7657,  3.6799, 76.1691]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.6907,  3.4237,  2.7657],
+         [ 3.4237, 72.8134,  3.6799],
+         [ 2.7657,  3.6799, 76.1691]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 7.2747e+01,  5.4063e-01, -2.5731e-01],
+         [ 5.4063e-01,  7.2101e+01, -1.1650e-02],
+         [-2.5731e-01, -1.1650e-02,  7.2927e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 7.2747e+01,  5.4063e-01, -2.5731e-01],
+         [ 5.4063e-01,  7.2101e+01, -1.1650e-02],
+         [-2.5731e-01, -1.1650e-02,  7.2927e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 77.5260,   5.9844,   0.9377],
+         [  5.9844, 110.3321,  -2.3800],
+         [  0.9377,  -2.3800,  48.7154]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 77.5260,   5.9844,   0.9377],
+         [  5.9844, 110.3321,  -2.3800],
+         [  0.9377,  -2.3800,  48.7154]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 82.0914,  24.9472,   0.0000],
+         [ 24.9472, 110.6306,   0.0000],
+         [  0.0000,   0.0000,  49.2101]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 82.0914,  24.9472,   0.0000],
+         [ 24.9472, 110.6306,   0.0000],
+         [  0.0000,   0.0000,  49.2101]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[61.6678, -4.6380, -2.7807],
+         [-4.6380, 68.7764,  4.9747],
+         [-2.7807,  4.9747, 45.3763]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[61.6678, -4.6380, -2.7807],
+         [-4.6380, 68.7764,  4.9747],
+         [-2.7807,  4.9747, 45.3763]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.3623, -1.9137,  7.5040],
+         [-1.9137, 57.6435,  3.9969],
+         [ 7.5040,  3.9969, 68.6786]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.3623, -1.9137,  7.5040],
+         [-1.9137, 57.6435,  3.9969],
+         [ 7.5040,  3.9969, 68.6786]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.5194,  3.9859, -2.7707],
+         [ 3.9859, 78.6551,  0.8741],
+         [-2.7707,  0.8741, 58.2675]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.5194,  3.9859, -2.7707],
+         [ 3.9859, 78.6551,  0.8741],
+         [-2.7707,  0.8741, 58.2675]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[54.8474, 12.9401,  6.8523],
+         [12.9401, 76.8062, -5.8430],
+         [ 6.8523, -5.8430, 62.3586]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[54.8474, 12.9401,  6.8523],
+         [12.9401, 76.8062, -5.8430],
+         [ 6.8523, -5.8430, 62.3586]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 6.4581e+01, -1.5259e-01, -6.3485e-02],
+         [-1.5259e-01,  8.8898e+01,  3.4766e+00],
+         [-6.3485e-02,  3.4766e+00,  6.5215e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 6.4581e+01, -1.5259e-01, -6.3485e-02],
+         [-1.5259e-01,  8.8898e+01,  3.4766e+00],
+         [-6.3485e-02,  3.4766e+00,  6.5215e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.0283,  1.2006,  3.9001],
+         [ 1.2006, 63.7464,  0.7967],
+         [ 3.9001,  0.7967, 57.0230]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.0283,  1.2006,  3.9001],
+         [ 1.2006, 63.7464,  0.7967],
+         [ 3.9001,  0.7967, 57.0230]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.3378, -3.4341, -0.2585],
+         [-3.4341, 68.0521, -1.5450],
+         [-0.2585, -1.5450, 52.1309]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.3378, -3.4341, -0.2585],
+         [-3.4341, 68.0521, -1.5450],
+         [-0.2585, -1.5450, 52.1309]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[106.3801,  11.9882,   6.0898],
+         [ 11.9882,  66.0824,   0.9714],
+         [  6.0898,   0.9714,  55.2233]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[106.3801,  11.9882,   6.0898],
+         [ 11.9882,  66.0824,   0.9714],
+         [  6.0898,   0.9714,  55.2233]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.0174, -0.7433,  0.0746],
+         [-0.7433, 64.5093, -0.1018],
+         [ 0.0746, -0.1018, 45.3536]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.0174, -0.7433,  0.0746],
+         [-0.7433, 64.5093, -0.1018],
+         [ 0.0746, -0.1018, 45.3536]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 87.6352, -12.4272,  -6.6768],
+         [-12.4272,  84.2912,   0.9444],
+         [ -6.6768,   0.9444,  61.2687]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 87.6352, -12.4272,  -6.6768],
+         [-12.4272,  84.2912,   0.9444],
+         [ -6.6768,   0.9444,  61.2687]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[71.3493, -1.8842,  3.7335],
+         [-1.8842, 67.6009, -2.2304],
+         [ 3.7335, -2.2304, 70.7603]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[71.3493, -1.8842,  3.7335],
+         [-1.8842, 67.6009, -2.2304],
+         [ 3.7335, -2.2304, 70.7603]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.3292,  5.8860,  3.8076],
+         [ 5.8860, 81.6988, 11.5435],
+         [ 3.8076, 11.5435, 56.5969]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.3292,  5.8860,  3.8076],
+         [ 5.8860, 81.6988, 11.5435],
+         [ 3.8076, 11.5435, 56.5969]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[53.7807,  7.4752,  1.3472],
+         [ 7.4752, 71.3934,  1.7998],
+         [ 1.3472,  1.7998, 61.4094]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[53.7807,  7.4752,  1.3472],
+         [ 7.4752, 71.3934,  1.7998],
+         [ 1.3472,  1.7998, 61.4094]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.7291e+01,  9.3328e+00, -4.6215e-02],
+         [ 9.3328e+00,  7.6551e+01, -4.8628e-01],
+         [-4.6215e-02, -4.8628e-01,  6.6584e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.7291e+01,  9.3328e+00, -4.6215e-02],
+         [ 9.3328e+00,  7.6551e+01, -4.8628e-01],
+         [-4.6215e-02, -4.8628e-01,  6.6584e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 81.2333,   1.4548,  11.8485],
+         [  1.4548, 107.0176,  -0.2192],
+         [ 11.8485,  -0.2192,  65.4381]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 81.2333,   1.4548,  11.8485],
+         [  1.4548, 107.0176,  -0.2192],
+         [ 11.8485,  -0.2192,  65.4381]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.7104,  0.5880, -5.6367],
+         [ 0.5880, 92.2002, -2.3657],
+         [-5.6367, -2.3657, 63.5089]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.7104,  0.5880, -5.6367],
+         [ 0.5880, 92.2002, -2.3657],
+         [-5.6367, -2.3657, 63.5089]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 90.8879,  15.8687, -11.2988],
+         [ 15.8687,  64.8319,  -7.6804],
+         [-11.2988,  -7.6804,  61.6215]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 90.8879,  15.8687, -11.2988],
+         [ 15.8687,  64.8319,  -7.6804],
+         [-11.2988,  -7.6804,  61.6215]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.4090, 10.7897,  3.7453],
+         [10.7897, 65.2507, 11.0565],
+         [ 3.7453, 11.0565, 53.2882]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.4090, 10.7897,  3.7453],
+         [10.7897, 65.2507, 11.0565],
+         [ 3.7453, 11.0565, 53.2882]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 97.0828, -25.8172,  14.4695],
+         [-25.8172,  76.9632,  -1.5401],
+         [ 14.4695,  -1.5401,  49.0309]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 97.0828, -25.8172,  14.4695],
+         [-25.8172,  76.9632,  -1.5401],
+         [ 14.4695,  -1.5401,  49.0309]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.1561, -8.1380,  2.9551],
+         [-8.1380, 72.0351, -1.2537],
+         [ 2.9551, -1.2537, 60.5233]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.1561, -8.1380,  2.9551],
+         [-8.1380, 72.0351, -1.2537],
+         [ 2.9551, -1.2537, 60.5233]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[105.8641,  11.3020,   2.2748],
+         [ 11.3020,  79.8899,   0.8507],
+         [  2.2748,   0.8507,  73.9132]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[105.8641,  11.3020,   2.2748],
+         [ 11.3020,  79.8899,   0.8507],
+         [  2.2748,   0.8507,  73.9132]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 87.7849,   0.0946, -11.6518],
+         [  0.0946,  75.8912,  -1.2354],
+         [-11.6518,  -1.2354,  71.1441]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 87.7849,   0.0946, -11.6518],
+         [  0.0946,  75.8912,  -1.2354],
+         [-11.6518,  -1.2354,  71.1441]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 7.7797e+01,  2.9663e+00,  5.1357e-02],
+         [ 2.9663e+00,  7.4014e+01, -3.5963e-02],
+         [ 5.1357e-02, -3.5963e-02,  7.2655e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 7.7797e+01,  2.9663e+00,  5.1357e-02],
+         [ 2.9663e+00,  7.4014e+01, -3.5963e-02],
+         [ 5.1357e-02, -3.5963e-02,  7.2655e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[65.6680, -2.0871,  4.7939],
+         [-2.0871, 75.4781,  2.2410],
+         [ 4.7939,  2.2410, 63.7107]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[65.6680, -2.0871,  4.7939],
+         [-2.0871, 75.4781,  2.2410],
+         [ 4.7939,  2.2410, 63.7107]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[85.0402,  3.3352, -8.8493],
+         [ 3.3352, 84.3857, -3.3760],
+         [-8.8493, -3.3760, 79.9229]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[85.0402,  3.3352, -8.8493],
+         [ 3.3352, 84.3857, -3.3760],
+         [-8.8493, -3.3760, 79.9229]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.5326,  2.8499,  4.6570],
+         [ 2.8499, 74.3776,  1.7837],
+         [ 4.6570,  1.7837, 74.0132]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.5326,  2.8499,  4.6570],
+         [ 2.8499, 74.3776,  1.7837],
+         [ 4.6570,  1.7837, 74.0132]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.8234,  4.3600,  0.2387],
+         [ 4.3600, 82.0805,  6.0801],
+         [ 0.2387,  6.0801, 50.5255]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.8234,  4.3600,  0.2387],
+         [ 4.3600, 82.0805,  6.0801],
+         [ 0.2387,  6.0801, 50.5255]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[53.5641,  6.6241,  0.0000],
+         [ 6.6241, 60.2775,  0.0000],
+         [ 0.0000,  0.0000, 33.0165]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[53.5641,  6.6241,  0.0000],
+         [ 6.6241, 60.2775,  0.0000],
+         [ 0.0000,  0.0000, 33.0165]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[56.3286,  7.3153,  2.1475],
+         [ 7.3153, 63.6612,  4.3369],
+         [ 2.1475,  4.3369, 60.5624]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[56.3286,  7.3153,  2.1475],
+         [ 7.3153, 63.6612,  4.3369],
+         [ 2.1475,  4.3369, 60.5624]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.3995, 16.1690, -4.0710],
+         [16.1690, 78.0108, -2.9959],
+         [-4.0710, -2.9959, 46.6896]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.3995, 16.1690, -4.0710],
+         [16.1690, 78.0108, -2.9959],
+         [-4.0710, -2.9959, 46.6896]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.9253, -0.4679, -2.4354],
+         [-0.4679, 64.8488,  0.3590],
+         [-2.4354,  0.3590, 60.5287]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.9253, -0.4679, -2.4354],
+         [-0.4679, 64.8488,  0.3590],
+         [-2.4354,  0.3590, 60.5287]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 99.2772,  11.8600,  -0.1994],
+         [ 11.8600, 109.1593,  -0.7390],
+         [ -0.1994,  -0.7390,  58.7579]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 99.2772,  11.8600,  -0.1994],
+         [ 11.8600, 109.1593,  -0.7390],
+         [ -0.1994,  -0.7390,  58.7579]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.8644,  7.8560, 11.8547],
+         [ 7.8560, 68.0820, -9.2707],
+         [11.8547, -9.2707, 82.9559]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.8644,  7.8560, 11.8547],
+         [ 7.8560, 68.0820, -9.2707],
+         [11.8547, -9.2707, 82.9559]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 5.0900e+01, -7.2046e-03,  2.9006e-01],
+         [-7.2046e-03,  5.0911e+01,  1.4557e-01],
+         [ 2.9006e-01,  1.4557e-01,  4.4895e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 5.0900e+01, -7.2046e-03,  2.9006e-01],
+         [-7.2046e-03,  5.0911e+01,  1.4557e-01],
+         [ 2.9006e-01,  1.4557e-01,  4.4895e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.3779,  1.1081,  6.6500],
+         [ 1.1081, 63.1473,  2.6078],
+         [ 6.6500,  2.6078, 81.9929]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.3779,  1.1081,  6.6500],
+         [ 1.1081, 63.1473,  2.6078],
+         [ 6.6500,  2.6078, 81.9929]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.2321, -2.8288, -7.0823],
+         [-2.8288, 80.8354, -8.2447],
+         [-7.0823, -8.2447, 74.4074]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.2321, -2.8288, -7.0823],
+         [-2.8288, 80.8354, -8.2447],
+         [-7.0823, -8.2447, 74.4074]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[88.7376,  0.1615,  5.6258],
+         [ 0.1615, 62.8624,  0.2033],
+         [ 5.6258,  0.2033, 58.6774]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[88.7376,  0.1615,  5.6258],
+         [ 0.1615, 62.8624,  0.2033],
+         [ 5.6258,  0.2033, 58.6774]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 6.3094e+01,  9.9078e+00, -8.5482e+00],
+         [ 9.9078e+00,  7.0926e+01,  8.3049e-02],
+         [-8.5482e+00,  8.3049e-02,  8.3216e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 6.3094e+01,  9.9078e+00, -8.5482e+00],
+         [ 9.9078e+00,  7.0926e+01,  8.3049e-02],
+         [-8.5482e+00,  8.3049e-02,  8.3216e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.0943, -2.3969,  7.6303],
+         [-2.3969, 77.2435,  2.8299],
+         [ 7.6303,  2.8299, 67.1478]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.0943, -2.3969,  7.6303],
+         [-2.3969, 77.2435,  2.8299],
+         [ 7.6303,  2.8299, 67.1478]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 58.6454,  -4.6155, -11.3405],
+         [ -4.6155,  61.3648,   1.2087],
+         [-11.3405,   1.2087,  93.9933]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 58.6454,  -4.6155, -11.3405],
+         [ -4.6155,  61.3648,   1.2087],
+         [-11.3405,   1.2087,  93.9933]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.6175, -0.3684, -8.6867],
+         [-0.3684, 72.4541,  5.0782],
+         [-8.6867,  5.0782, 58.9058]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.6175, -0.3684, -8.6867],
+         [-0.3684, 72.4541,  5.0782],
+         [-8.6867,  5.0782, 58.9058]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.2722, -1.8122,  3.2921],
+         [-1.8122, 71.2689,  1.1936],
+         [ 3.2921,  1.1936, 68.6725]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.2722, -1.8122,  3.2921],
+         [-1.8122, 71.2689,  1.1936],
+         [ 3.2921,  1.1936, 68.6725]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[88.6578,  7.2611, -5.2450],
+         [ 7.2611, 76.8419, -2.3621],
+         [-5.2450, -2.3621, 75.4638]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[88.6578,  7.2611, -5.2450],
+         [ 7.2611, 76.8419, -2.3621],
+         [-5.2450, -2.3621, 75.4638]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.0877,  6.0687, -3.4229],
+         [ 6.0687, 69.1745,  1.4316],
+         [-3.4229,  1.4316, 65.8222]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.0877,  6.0687, -3.4229],
+         [ 6.0687, 69.1745,  1.4316],
+         [-3.4229,  1.4316, 65.8222]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[62.5002,  2.5074,  5.0554],
+         [ 2.5074, 61.5153, -0.1440],
+         [ 5.0554, -0.1440, 55.0621]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[62.5002,  2.5074,  5.0554],
+         [ 2.5074, 61.5153, -0.1440],
+         [ 5.0554, -0.1440, 55.0621]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 70.4301,   3.2997, -10.5820],
+         [  3.2997,  68.7737,   3.2163],
+         [-10.5820,   3.2163,  75.4004]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 70.4301,   3.2997, -10.5820],
+         [  3.2997,  68.7737,   3.2163],
+         [-10.5820,   3.2163,  75.4004]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 82.7058,  11.7109, -13.6991],
+         [ 11.7109,  77.4125,  -7.7690],
+         [-13.6991,  -7.7690,  81.7764]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 82.7058,  11.7109, -13.6991],
+         [ 11.7109,  77.4125,  -7.7690],
+         [-13.6991,  -7.7690,  81.7764]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.0981,  7.0927,  0.1659],
+         [ 7.0927, 78.1076,  4.7742],
+         [ 0.1659,  4.7742, 71.2793]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.0981,  7.0927,  0.1659],
+         [ 7.0927, 78.1076,  4.7742],
+         [ 0.1659,  4.7742, 71.2793]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.9159e+01,  1.1348e+01, -4.4506e-03],
+         [ 1.1348e+01,  7.4215e+01,  1.5569e-02],
+         [-4.4506e-03,  1.5569e-02,  5.3995e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.9159e+01,  1.1348e+01, -4.4506e-03],
+         [ 1.1348e+01,  7.4215e+01,  1.5569e-02],
+         [-4.4506e-03,  1.5569e-02,  5.3995e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.2886,  4.0856, -1.0641],
+         [ 4.0856, 82.7297, 12.4854],
+         [-1.0641, 12.4854, 62.4060]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.2886,  4.0856, -1.0641],
+         [ 4.0856, 82.7297, 12.4854],
+         [-1.0641, 12.4854, 62.4060]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.2885,  3.1874,  7.5726],
+         [ 3.1874, 69.6405,  6.0622],
+         [ 7.5726,  6.0622, 73.3094]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.2885,  3.1874,  7.5726],
+         [ 3.1874, 69.6405,  6.0622],
+         [ 7.5726,  6.0622, 73.3094]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.5681, -2.3626, -7.5101],
+         [-2.3626, 84.9613, -0.6579],
+         [-7.5101, -0.6579, 51.3321]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.5681, -2.3626, -7.5101],
+         [-2.3626, 84.9613, -0.6579],
+         [-7.5101, -0.6579, 51.3321]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.7104,  1.8907,  4.2716],
+         [ 1.8907, 67.1002,  0.9893],
+         [ 4.2716,  0.9893, 65.5992]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.7104,  1.8907,  4.2716],
+         [ 1.8907, 67.1002,  0.9893],
+         [ 4.2716,  0.9893, 65.5992]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.5851, -6.4486, -2.5929],
+         [-6.4486, 79.8520, -1.1085],
+         [-2.5929, -1.1085, 74.1841]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.5851, -6.4486, -2.5929],
+         [-6.4486, 79.8520, -1.1085],
+         [-2.5929, -1.1085, 74.1841]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.3036,  5.4195,  1.2440],
+         [ 5.4195, 61.0767,  8.0935],
+         [ 1.2440,  8.0935, 61.2086]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.3036,  5.4195,  1.2440],
+         [ 5.4195, 61.0767,  8.0935],
+         [ 1.2440,  8.0935, 61.2086]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.5482, -2.4498, -1.0239],
+         [-2.4498, 75.4734, -0.9127],
+         [-1.0239, -0.9127, 66.0585]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.5482, -2.4498, -1.0239],
+         [-2.4498, 75.4734, -0.9127],
+         [-1.0239, -0.9127, 66.0585]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 74.9159,   1.8911, -12.5527],
+         [  1.8911,  73.7975,  -2.4763],
+         [-12.5527,  -2.4763,  67.3043]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 74.9159,   1.8911, -12.5527],
+         [  1.8911,  73.7975,  -2.4763],
+         [-12.5527,  -2.4763,  67.3043]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 95.6552,   3.0145, -11.7980],
+         [  3.0145,  61.8313,   5.8152],
+         [-11.7980,   5.8152,  65.8873]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 95.6552,   3.0145, -11.7980],
+         [  3.0145,  61.8313,   5.8152],
+         [-11.7980,   5.8152,  65.8873]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[100.4109,  -2.2206,  -0.4829],
+         [ -2.2206,  85.2818,  -0.7227],
+         [ -0.4829,  -0.7227,  76.8113]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[100.4109,  -2.2206,  -0.4829],
+         [ -2.2206,  85.2818,  -0.7227],
+         [ -0.4829,  -0.7227,  76.8113]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.8152, 11.0546, -6.0163],
+         [11.0546, 88.5730, -1.7279],
+         [-6.0163, -1.7279, 81.0618]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.8152, 11.0546, -6.0163],
+         [11.0546, 88.5730, -1.7279],
+         [-6.0163, -1.7279, 81.0618]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 1.0018e+02, -4.2710e+00,  8.1065e-02],
+         [-4.2710e+00,  6.0975e+01, -2.9617e-01],
+         [ 8.1065e-02, -2.9617e-01,  4.5757e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 1.0018e+02, -4.2710e+00,  8.1065e-02],
+         [-4.2710e+00,  6.0975e+01, -2.9617e-01],
+         [ 8.1065e-02, -2.9617e-01,  4.5757e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.6879e+01,  2.0047e+00,  1.9099e-01],
+         [ 2.0047e+00,  6.4863e+01, -4.7403e-02],
+         [ 1.9099e-01, -4.7403e-02,  4.1783e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.6879e+01,  2.0047e+00,  1.9099e-01],
+         [ 2.0047e+00,  6.4863e+01, -4.7403e-02],
+         [ 1.9099e-01, -4.7403e-02,  4.1783e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 78.5167,   8.5655, -15.4363],
+         [  8.5655,  58.9341,  -8.7812],
+         [-15.4363,  -8.7812,  66.4739]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 78.5167,   8.5655, -15.4363],
+         [  8.5655,  58.9341,  -8.7812],
+         [-15.4363,  -8.7812,  66.4739]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.8798, -1.8680, -6.8232],
+         [-1.8680, 70.7965, -1.2451],
+         [-6.8232, -1.2451, 83.1483]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.8798, -1.8680, -6.8232],
+         [-1.8680, 70.7965, -1.2451],
+         [-6.8232, -1.2451, 83.1483]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 88.2149,  -1.0011, -13.4337],
+         [ -1.0011,  78.7246,  -0.1356],
+         [-13.4337,  -0.1356,  76.6611]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 88.2149,  -1.0011, -13.4337],
+         [ -1.0011,  78.7246,  -0.1356],
+         [-13.4337,  -0.1356,  76.6611]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[54.0627, -5.9134, -3.7458],
+         [-5.9134, 72.2805,  1.1348],
+         [-3.7458,  1.1348, 53.1654]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[54.0627, -5.9134, -3.7458],
+         [-5.9134, 72.2805,  1.1348],
+         [-3.7458,  1.1348, 53.1654]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.5813,  0.4558,  1.1392],
+         [ 0.4558, 77.5181, -0.7583],
+         [ 1.1392, -0.7583, 68.0122]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.5813,  0.4558,  1.1392],
+         [ 0.4558, 77.5181, -0.7583],
+         [ 1.1392, -0.7583, 68.0122]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[99.2669, -2.7834, -5.0118],
+         [-2.7834, 67.4439, -2.2099],
+         [-5.0118, -2.2099, 54.3195]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[99.2669, -2.7834, -5.0118],
+         [-2.7834, 67.4439, -2.2099],
+         [-5.0118, -2.2099, 54.3195]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.5551,  1.5853,  0.3349],
+         [ 1.5853, 77.4393,  0.3433],
+         [ 0.3349,  0.3433, 74.6052]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.5551,  1.5853,  0.3349],
+         [ 1.5853, 77.4393,  0.3433],
+         [ 0.3349,  0.3433, 74.6052]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.1611, -2.3126,  7.8361],
+         [-2.3126, 86.4524, -5.1596],
+         [ 7.8361, -5.1596, 73.4184]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.1611, -2.3126,  7.8361],
+         [-2.3126, 86.4524, -5.1596],
+         [ 7.8361, -5.1596, 73.4184]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.0819, -3.2909, -3.3437],
+         [-3.2909, 64.6068,  1.0364],
+         [-3.3437,  1.0364, 47.6903]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.0819, -3.2909, -3.3437],
+         [-3.2909, 64.6068,  1.0364],
+         [-3.3437,  1.0364, 47.6903]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[93.8008, 17.3503, -9.2228],
+         [17.3503, 88.0533, -7.7888],
+         [-9.2228, -7.7888, 78.8989]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[93.8008, 17.3503, -9.2228],
+         [17.3503, 88.0533, -7.7888],
+         [-9.2228, -7.7888, 78.8989]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.3253,  6.1271, -5.0240],
+         [ 6.1271, 75.4301, -3.2783],
+         [-5.0240, -3.2783, 72.3213]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.3253,  6.1271, -5.0240],
+         [ 6.1271, 75.4301, -3.2783],
+         [-5.0240, -3.2783, 72.3213]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.3904, 10.7055, -0.6085],
+         [10.7055, 73.3310, -2.2623],
+         [-0.6085, -2.2623, 72.5526]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.3904, 10.7055, -0.6085],
+         [10.7055, 73.3310, -2.2623],
+         [-0.6085, -2.2623, 72.5526]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.9398, 12.6639,  2.5041],
+         [12.6639, 90.5015,  1.1793],
+         [ 2.5041,  1.1793, 75.2842]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.9398, 12.6639,  2.5041],
+         [12.6639, 90.5015,  1.1793],
+         [ 2.5041,  1.1793, 75.2842]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[88.1907,  3.8753, -3.1008],
+         [ 3.8753, 90.3897,  5.8524],
+         [-3.1008,  5.8524, 85.8238]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[88.1907,  3.8753, -3.1008],
+         [ 3.8753, 90.3897,  5.8524],
+         [-3.1008,  5.8524, 85.8238]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.2704, -0.7511, -1.6508],
+         [-0.7511, 98.3907, 11.1442],
+         [-1.6508, 11.1442, 52.8615]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.2704, -0.7511, -1.6508],
+         [-0.7511, 98.3907, 11.1442],
+         [-1.6508, 11.1442, 52.8615]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.5895, 15.2240,  0.6896],
+         [15.2240, 93.7309,  9.0867],
+         [ 0.6896,  9.0867, 62.0093]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.5895, 15.2240,  0.6896],
+         [15.2240, 93.7309,  9.0867],
+         [ 0.6896,  9.0867, 62.0093]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[88.7043,  2.9370, -1.3932],
+         [ 2.9370, 68.5799,  1.3143],
+         [-1.3932,  1.3143, 62.6675]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[88.7043,  2.9370, -1.3932],
+         [ 2.9370, 68.5799,  1.3143],
+         [-1.3932,  1.3143, 62.6675]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.9467, -1.0873,  7.4338],
+         [-1.0873, 75.8045, -2.5652],
+         [ 7.4338, -2.5652, 76.5594]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.9467, -1.0873,  7.4338],
+         [-1.0873, 75.8045, -2.5652],
+         [ 7.4338, -2.5652, 76.5594]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[71.7772,  0.9709,  0.5898],
+         [ 0.9709, 72.9659, -0.8199],
+         [ 0.5898, -0.8199, 58.5083]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[71.7772,  0.9709,  0.5898],
+         [ 0.9709, 72.9659, -0.8199],
+         [ 0.5898, -0.8199, 58.5083]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[62.4583,  1.8681,  2.1439],
+         [ 1.8681, 71.8682,  1.5142],
+         [ 2.1439,  1.5142, 65.3089]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[62.4583,  1.8681,  2.1439],
+         [ 1.8681, 71.8682,  1.5142],
+         [ 2.1439,  1.5142, 65.3089]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 83.6317,   5.9391,   2.4137],
+         [  5.9391, 127.1560, -10.2117],
+         [  2.4137, -10.2117,  57.8086]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 83.6317,   5.9391,   2.4137],
+         [  5.9391, 127.1560, -10.2117],
+         [  2.4137, -10.2117,  57.8086]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.5095,  3.1630,  0.2887],
+         [ 3.1630, 87.9190, -1.8367],
+         [ 0.2887, -1.8367, 88.2175]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.5095,  3.1630,  0.2887],
+         [ 3.1630, 87.9190, -1.8367],
+         [ 0.2887, -1.8367, 88.2175]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.9017, -0.5431, -5.6448],
+         [-0.5431, 73.8471,  1.5312],
+         [-5.6448,  1.5312, 85.9636]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.9017, -0.5431, -5.6448],
+         [-0.5431, 73.8471,  1.5312],
+         [-5.6448,  1.5312, 85.9636]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.7378,  1.4323, -6.5966],
+         [ 1.4323, 74.2481, -0.5540],
+         [-6.5966, -0.5540, 51.7559]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.7378,  1.4323, -6.5966],
+         [ 1.4323, 74.2481, -0.5540],
+         [-6.5966, -0.5540, 51.7559]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[95.0699, -2.2550, -0.8557],
+         [-2.2550, 71.7692,  3.1896],
+         [-0.8557,  3.1896, 49.8622]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[95.0699, -2.2550, -0.8557],
+         [-2.2550, 71.7692,  3.1896],
+         [-0.8557,  3.1896, 49.8622]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[59.2299, -0.4509, -5.4276],
+         [-0.4509, 93.3954, -1.1956],
+         [-5.4276, -1.1956, 73.5712]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[59.2299, -0.4509, -5.4276],
+         [-0.4509, 93.3954, -1.1956],
+         [-5.4276, -1.1956, 73.5712]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.5824,  7.4845,  3.6501],
+         [ 7.4845, 75.7636, -3.3181],
+         [ 3.6501, -3.3181, 63.7653]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.5824,  7.4845,  3.6501],
+         [ 7.4845, 75.7636, -3.3181],
+         [ 3.6501, -3.3181, 63.7653]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.0590,  6.8672, -2.0486],
+         [ 6.8672, 75.0712, -2.6619],
+         [-2.0486, -2.6619, 73.6843]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.0590,  6.8672, -2.0486],
+         [ 6.8672, 75.0712, -2.6619],
+         [-2.0486, -2.6619, 73.6843]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.9977,  8.4202, -1.3783],
+         [ 8.4202, 77.4850, -1.5441],
+         [-1.3783, -1.5441, 44.3257]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.9977,  8.4202, -1.3783],
+         [ 8.4202, 77.4850, -1.5441],
+         [-1.3783, -1.5441, 44.3257]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.4191, -3.9268,  4.7553],
+         [-3.9268, 80.9055,  1.0579],
+         [ 4.7553,  1.0579, 69.7234]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.4191, -3.9268,  4.7553],
+         [-3.9268, 80.9055,  1.0579],
+         [ 4.7553,  1.0579, 69.7234]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.1897,  1.9699,  0.1851],
+         [ 1.9699, 79.4080, -3.0794],
+         [ 0.1851, -3.0794, 48.6574]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.1897,  1.9699,  0.1851],
+         [ 1.9699, 79.4080, -3.0794],
+         [ 0.1851, -3.0794, 48.6574]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[56.3957, -7.7026, -3.6417],
+         [-7.7026, 69.8196,  0.1604],
+         [-3.6417,  0.1604, 52.3870]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[56.3957, -7.7026, -3.6417],
+         [-7.7026, 69.8196,  0.1604],
+         [-3.6417,  0.1604, 52.3870]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.7553,  8.3181,  4.4544],
+         [ 8.3181, 54.8549,  1.8469],
+         [ 4.4544,  1.8469, 67.1652]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.7553,  8.3181,  4.4544],
+         [ 8.3181, 54.8549,  1.8469],
+         [ 4.4544,  1.8469, 67.1652]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.7208, 17.3901, 12.6253],
+         [17.3901, 78.2544,  5.2441],
+         [12.6253,  5.2441, 68.9720]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.7208, 17.3901, 12.6253],
+         [17.3901, 78.2544,  5.2441],
+         [12.6253,  5.2441, 68.9720]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[95.8539,  2.8383, -1.5941],
+         [ 2.8383, 84.8852, 11.0916],
+         [-1.5941, 11.0916, 55.2208]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[95.8539,  2.8383, -1.5941],
+         [ 2.8383, 84.8852, 11.0916],
+         [-1.5941, 11.0916, 55.2208]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.4267, -6.0660,  1.8312],
+         [-6.0660, 70.1298, -0.7336],
+         [ 1.8312, -0.7336, 67.6803]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.4267, -6.0660,  1.8312],
+         [-6.0660, 70.1298, -0.7336],
+         [ 1.8312, -0.7336, 67.6803]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[89.7279, 31.7347, -4.4115],
+         [31.7347, 87.2444, -3.5845],
+         [-4.4115, -3.5845, 48.2768]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[89.7279, 31.7347, -4.4115],
+         [31.7347, 87.2444, -3.5845],
+         [-4.4115, -3.5845, 48.2768]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 6.8002e+01, -2.6010e-01,  2.2813e+00],
+         [-2.6010e-01,  6.6210e+01,  4.2227e-02],
+         [ 2.2813e+00,  4.2227e-02,  6.9763e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 6.8002e+01, -2.6010e-01,  2.2813e+00],
+         [-2.6010e-01,  6.6210e+01,  4.2227e-02],
+         [ 2.2813e+00,  4.2227e-02,  6.9763e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.5263,  2.9327,  1.9254],
+         [ 2.9327, 87.1638,  1.7843],
+         [ 1.9254,  1.7843, 76.0656]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.5263,  2.9327,  1.9254],
+         [ 2.9327, 87.1638,  1.7843],
+         [ 1.9254,  1.7843, 76.0656]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 1.2150e+02, -7.4537e-01, -4.7373e+00],
+         [-7.4537e-01,  5.6848e+01,  1.0294e-01],
+         [-4.7373e+00,  1.0294e-01,  5.6125e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 1.2150e+02, -7.4537e-01, -4.7373e+00],
+         [-7.4537e-01,  5.6848e+01,  1.0294e-01],
+         [-4.7373e+00,  1.0294e-01,  5.6125e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[124.2953,  15.8853,  -4.9927],
+         [ 15.8853,  69.7880,  -2.9326],
+         [ -4.9927,  -2.9326,  61.1599]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[124.2953,  15.8853,  -4.9927],
+         [ 15.8853,  69.7880,  -2.9326],
+         [ -4.9927,  -2.9326,  61.1599]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.1268, -4.6734,  0.5512],
+         [-4.6734, 76.3370, -0.5227],
+         [ 0.5512, -0.5227, 59.1172]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.1268, -4.6734,  0.5512],
+         [-4.6734, 76.3370, -0.5227],
+         [ 0.5512, -0.5227, 59.1172]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.0804,  0.4134, -2.9375],
+         [ 0.4134, 80.4505, -4.5868],
+         [-2.9375, -4.5868, 79.4214]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.0804,  0.4134, -2.9375],
+         [ 0.4134, 80.4505, -4.5868],
+         [-2.9375, -4.5868, 79.4214]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 66.8191,   9.9890, -19.1546],
+         [  9.9890,  62.7900,   1.6114],
+         [-19.1546,   1.6114,  67.5115]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 66.8191,   9.9890, -19.1546],
+         [  9.9890,  62.7900,   1.6114],
+         [-19.1546,   1.6114,  67.5115]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 67.3780, -15.4815,   5.9448],
+         [-15.4815,  98.3272,   0.7649],
+         [  5.9448,   0.7649,  66.3675]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 67.3780, -15.4815,   5.9448],
+         [-15.4815,  98.3272,   0.7649],
+         [  5.9448,   0.7649,  66.3675]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[108.0840,   8.9632,   8.5766],
+         [  8.9632,  85.2247,   4.2290],
+         [  8.5766,   4.2290,  75.4721]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[108.0840,   8.9632,   8.5766],
+         [  8.9632,  85.2247,   4.2290],
+         [  8.5766,   4.2290,  75.4721]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[123.0457, -12.7943,  17.6918],
+         [-12.7943,  84.4316,  -3.9103],
+         [ 17.6918,  -3.9103,  61.9521]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[123.0457, -12.7943,  17.6918],
+         [-12.7943,  84.4316,  -3.9103],
+         [ 17.6918,  -3.9103,  61.9521]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.8534,  2.9224,  2.1153],
+         [ 2.9224, 64.4219,  0.3058],
+         [ 2.1153,  0.3058, 57.9446]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.8534,  2.9224,  2.1153],
+         [ 2.9224, 64.4219,  0.3058],
+         [ 2.1153,  0.3058, 57.9446]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[71.9795,  6.9948,  3.1210],
+         [ 6.9948, 83.6991,  1.7942],
+         [ 3.1210,  1.7942, 78.3507]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[71.9795,  6.9948,  3.1210],
+         [ 6.9948, 83.6991,  1.7942],
+         [ 3.1210,  1.7942, 78.3507]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.0107,  1.3026, -0.6302],
+         [ 1.3026, 73.6710, -0.5599],
+         [-0.6302, -0.5599, 67.9577]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.0107,  1.3026, -0.6302],
+         [ 1.3026, 73.6710, -0.5599],
+         [-0.6302, -0.5599, 67.9577]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[110.7272,  -1.6038,   0.1117],
+         [ -1.6038,  86.9702,  -0.4004],
+         [  0.1117,  -0.4004,  56.4632]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[110.7272,  -1.6038,   0.1117],
+         [ -1.6038,  86.9702,  -0.4004],
+         [  0.1117,  -0.4004,  56.4632]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[1.1278e+02, 6.7782e+00, 4.3509e-02],
+         [6.7782e+00, 7.4806e+01, 2.3405e-02],
+         [4.3509e-02, 2.3405e-02, 4.8050e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[1.1278e+02, 6.7782e+00, 4.3509e-02],
+         [6.7782e+00, 7.4806e+01, 2.3405e-02],
+         [4.3509e-02, 2.3405e-02, 4.8050e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 93.3790,   0.3220,  -7.3595],
+         [  0.3220,  67.4397,  -0.2528],
+         [ -7.3595,  -0.2528, 103.7581]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 93.3790,   0.3220,  -7.3595],
+         [  0.3220,  67.4397,  -0.2528],
+         [ -7.3595,  -0.2528, 103.7581]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.8690, 18.2911,  2.8144],
+         [18.2911, 80.9248,  6.2590],
+         [ 2.8144,  6.2590, 81.8805]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.8690, 18.2911,  2.8144],
+         [18.2911, 80.9248,  6.2590],
+         [ 2.8144,  6.2590, 81.8805]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.8843,  5.3457, 10.7698],
+         [ 5.3457, 66.8804, -2.7187],
+         [10.7698, -2.7187, 62.1377]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.8843,  5.3457, 10.7698],
+         [ 5.3457, 66.8804, -2.7187],
+         [10.7698, -2.7187, 62.1377]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.9521, -2.5689, -2.9872],
+         [-2.5689, 66.1844, -2.7641],
+         [-2.9872, -2.7641, 66.9569]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.9521, -2.5689, -2.9872],
+         [-2.5689, 66.1844, -2.7641],
+         [-2.9872, -2.7641, 66.9569]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.9836, -7.2987,  1.2649],
+         [-7.2987, 72.6733,  7.2952],
+         [ 1.2649,  7.2952, 60.8878]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.9836, -7.2987,  1.2649],
+         [-7.2987, 72.6733,  7.2952],
+         [ 1.2649,  7.2952, 60.8878]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[64.5338, -0.4424, -1.4108],
+         [-0.4424, 73.1510, -0.2723],
+         [-1.4108, -0.2723, 68.5958]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[64.5338, -0.4424, -1.4108],
+         [-0.4424, 73.1510, -0.2723],
+         [-1.4108, -0.2723, 68.5958]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[99.3157,  2.9727,  0.3700],
+         [ 2.9727, 71.0227,  0.3190],
+         [ 0.3700,  0.3190, 52.6756]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[99.3157,  2.9727,  0.3700],
+         [ 2.9727, 71.0227,  0.3190],
+         [ 0.3700,  0.3190, 52.6756]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 85.0522,  29.0297,  -0.4953],
+         [ 29.0297, 138.9025,  -4.3802],
+         [ -0.4953,  -4.3802,  56.2638]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 85.0522,  29.0297,  -0.4953],
+         [ 29.0297, 138.9025,  -4.3802],
+         [ -0.4953,  -4.3802,  56.2638]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 1.1860e+02,  2.3032e+01,  8.8328e-02],
+         [ 2.3032e+01,  8.6134e+01, -8.4462e-01],
+         [ 8.8328e-02, -8.4462e-01,  5.4316e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 1.1860e+02,  2.3032e+01,  8.8328e-02],
+         [ 2.3032e+01,  8.6134e+01, -8.4462e-01],
+         [ 8.8328e-02, -8.4462e-01,  5.4316e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 1.2063e+02,  1.8185e+01, -6.4810e-02],
+         [ 1.8185e+01,  7.3876e+01, -5.5875e-02],
+         [-6.4810e-02, -5.5875e-02,  5.7995e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 1.2063e+02,  1.8185e+01, -6.4810e-02],
+         [ 1.8185e+01,  7.3876e+01, -5.5875e-02],
+         [-6.4810e-02, -5.5875e-02,  5.7995e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.6522e+01,  3.1539e+00, -5.0950e-02],
+         [ 3.1539e+00,  7.1448e+01, -5.0468e-03],
+         [-5.0950e-02, -5.0468e-03,  6.9465e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.6522e+01,  3.1539e+00, -5.0950e-02],
+         [ 3.1539e+00,  7.1448e+01, -5.0468e-03],
+         [-5.0950e-02, -5.0468e-03,  6.9465e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.0008, -7.8520,  0.4218],
+         [-7.8520, 91.9604, 10.6295],
+         [ 0.4218, 10.6295, 71.2501]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.0008, -7.8520,  0.4218],
+         [-7.8520, 91.9604, 10.6295],
+         [ 0.4218, 10.6295, 71.2501]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.6514, 10.8899,  0.6902],
+         [10.8899, 76.1877,  6.5397],
+         [ 0.6902,  6.5397, 69.1403]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.6514, 10.8899,  0.6902],
+         [10.8899, 76.1877,  6.5397],
+         [ 0.6902,  6.5397, 69.1403]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.9346, -0.6457, -4.3240],
+         [-0.6457, 68.0923,  1.9457],
+         [-4.3240,  1.9457, 74.9416]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.9346, -0.6457, -4.3240],
+         [-0.6457, 68.0923,  1.9457],
+         [-4.3240,  1.9457, 74.9416]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[59.4738, -1.3341,  6.6251],
+         [-1.3341, 66.8358, -3.3672],
+         [ 6.6251, -3.3672, 64.8316]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[59.4738, -1.3341,  6.6251],
+         [-1.3341, 66.8358, -3.3672],
+         [ 6.6251, -3.3672, 64.8316]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 7.6167e+01,  4.8809e-05, -2.5201e-01],
+         [ 4.8809e-05,  7.8756e+01,  2.8050e+00],
+         [-2.5201e-01,  2.8050e+00,  6.2419e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 7.6167e+01,  4.8809e-05, -2.5201e-01],
+         [ 4.8809e-05,  7.8756e+01,  2.8050e+00],
+         [-2.5201e-01,  2.8050e+00,  6.2419e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.3621,  0.7147, -1.1336],
+         [ 0.7147, 77.8672,  9.1884],
+         [-1.1336,  9.1884, 57.2475]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.3621,  0.7147, -1.1336],
+         [ 0.7147, 77.8672,  9.1884],
+         [-1.1336,  9.1884, 57.2475]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[105.6573,   2.4955,   5.1342],
+         [  2.4955,  72.8378,   1.9558],
+         [  5.1342,   1.9558,  70.8654]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[105.6573,   2.4955,   5.1342],
+         [  2.4955,  72.8378,   1.9558],
+         [  5.1342,   1.9558,  70.8654]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.6538,  4.8365,  0.7093],
+         [ 4.8365, 67.2616, -0.8976],
+         [ 0.7093, -0.8976, 64.2768]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.6538,  4.8365,  0.7093],
+         [ 4.8365, 67.2616, -0.8976],
+         [ 0.7093, -0.8976, 64.2768]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.6430,  2.5545, -2.6753],
+         [ 2.5545, 92.0445,  2.5269],
+         [-2.6753,  2.5269, 86.2929]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.6430,  2.5545, -2.6753],
+         [ 2.5545, 92.0445,  2.5269],
+         [-2.6753,  2.5269, 86.2929]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.9255, -3.1884,  6.1080],
+         [-3.1884, 70.4401, -1.4091],
+         [ 6.1080, -1.4091, 42.3428]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.9255, -3.1884,  6.1080],
+         [-3.1884, 70.4401, -1.4091],
+         [ 6.1080, -1.4091, 42.3428]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[55.7771,  5.3614, -2.5567],
+         [ 5.3614, 82.4635, 14.0439],
+         [-2.5567, 14.0439, 69.6187]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[55.7771,  5.3614, -2.5567],
+         [ 5.3614, 82.4635, 14.0439],
+         [-2.5567, 14.0439, 69.6187]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[88.9018, -3.1946, -1.4561],
+         [-3.1946, 76.7067,  1.0828],
+         [-1.4561,  1.0828, 77.3210]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[88.9018, -3.1946, -1.4561],
+         [-3.1946, 76.7067,  1.0828],
+         [-1.4561,  1.0828, 77.3210]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.4039, 17.7890,  5.9462],
+         [17.7890, 93.9075,  4.5336],
+         [ 5.9462,  4.5336, 68.6383]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.4039, 17.7890,  5.9462],
+         [17.7890, 93.9075,  4.5336],
+         [ 5.9462,  4.5336, 68.6383]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 84.4488,  19.8580,   5.0110],
+         [ 19.8580, 106.9598,  11.8294],
+         [  5.0110,  11.8294,  59.5997]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 84.4488,  19.8580,   5.0110],
+         [ 19.8580, 106.9598,  11.8294],
+         [  5.0110,  11.8294,  59.5997]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.8911,  2.3517,  5.7771],
+         [ 2.3517, 83.9396,  4.2991],
+         [ 5.7771,  4.2991, 78.8128]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.8911,  2.3517,  5.7771],
+         [ 2.3517, 83.9396,  4.2991],
+         [ 5.7771,  4.2991, 78.8128]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 6.8584e+01, -1.4539e+00, -1.1732e+01],
+         [-1.4539e+00,  7.7260e+01, -3.0510e-04],
+         [-1.1732e+01, -3.0510e-04,  5.8563e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 6.8584e+01, -1.4539e+00, -1.1732e+01],
+         [-1.4539e+00,  7.7260e+01, -3.0510e-04],
+         [-1.1732e+01, -3.0510e-04,  5.8563e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[89.5976,  0.2006, -3.6581],
+         [ 0.2006, 68.5628,  0.1161],
+         [-3.6581,  0.1161, 42.4073]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[89.5976,  0.2006, -3.6581],
+         [ 0.2006, 68.5628,  0.1161],
+         [-3.6581,  0.1161, 42.4073]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 66.5219,  -1.0747, -11.7966],
+         [ -1.0747,  74.6305,   0.4215],
+         [-11.7966,   0.4215,  57.9582]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 66.5219,  -1.0747, -11.7966],
+         [ -1.0747,  74.6305,   0.4215],
+         [-11.7966,   0.4215,  57.9582]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.7971, 11.1163, -1.9383],
+         [11.1163, 65.3092, -3.0790],
+         [-1.9383, -3.0790, 67.6235]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.7971, 11.1163, -1.9383],
+         [11.1163, 65.3092, -3.0790],
+         [-1.9383, -3.0790, 67.6235]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[118.7365,   8.6234, -11.2762],
+         [  8.6234,  71.1964,  -4.9013],
+         [-11.2762,  -4.9013,  74.4915]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[118.7365,   8.6234, -11.2762],
+         [  8.6234,  71.1964,  -4.9013],
+         [-11.2762,  -4.9013,  74.4915]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[97.5872,  8.0299,  7.6830],
+         [ 8.0299, 78.4712,  4.1816],
+         [ 7.6830,  4.1816, 50.5061]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[97.5872,  8.0299,  7.6830],
+         [ 8.0299, 78.4712,  4.1816],
+         [ 7.6830,  4.1816, 50.5061]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[97.9548,  7.4642, -2.7564],
+         [ 7.4642, 70.5437, -5.0371],
+         [-2.7564, -5.0371, 54.5639]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[97.9548,  7.4642, -2.7564],
+         [ 7.4642, 70.5437, -5.0371],
+         [-2.7564, -5.0371, 54.5639]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[117.8523,  22.0023, -10.8797],
+         [ 22.0023,  98.9228,  -8.3439],
+         [-10.8797,  -8.3439,  70.4437]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[117.8523,  22.0023, -10.8797],
+         [ 22.0023,  98.9228,  -8.3439],
+         [-10.8797,  -8.3439,  70.4437]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.0701,  2.5100, -2.0272],
+         [ 2.5100, 87.2204,  1.7818],
+         [-2.0272,  1.7818, 74.9587]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.0701,  2.5100, -2.0272],
+         [ 2.5100, 87.2204,  1.7818],
+         [-2.0272,  1.7818, 74.9587]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.3113,  4.1423,  1.9739],
+         [ 4.1423, 95.6236, 10.9967],
+         [ 1.9739, 10.9967, 71.5012]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.3113,  4.1423,  1.9739],
+         [ 4.1423, 95.6236, 10.9967],
+         [ 1.9739, 10.9967, 71.5012]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[50.7705,  7.7784, -1.2591],
+         [ 7.7784, 63.4527,  2.0805],
+         [-1.2591,  2.0805, 45.8442]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[50.7705,  7.7784, -1.2591],
+         [ 7.7784, 63.4527,  2.0805],
+         [-1.2591,  2.0805, 45.8442]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.7052e+01,  2.1818e-01, -6.5596e+00],
+         [ 2.1818e-01,  7.0525e+01, -1.6157e-02],
+         [-6.5596e+00, -1.6157e-02,  7.0995e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.7052e+01,  2.1818e-01, -6.5596e+00],
+         [ 2.1818e-01,  7.0525e+01, -1.6157e-02],
+         [-6.5596e+00, -1.6157e-02,  7.0995e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[85.9396,  6.8362, -0.2743],
+         [ 6.8362, 75.8640, -0.2628],
+         [-0.2743, -0.2628, 65.5683]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[85.9396,  6.8362, -0.2743],
+         [ 6.8362, 75.8640, -0.2628],
+         [-0.2743, -0.2628, 65.5683]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 75.1048,   1.9618,  -4.0542],
+         [  1.9618, 127.3595,  13.3455],
+         [ -4.0542,  13.3455,  57.8815]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 75.1048,   1.9618,  -4.0542],
+         [  1.9618, 127.3595,  13.3455],
+         [ -4.0542,  13.3455,  57.8815]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.9229,  4.8641,  1.9550],
+         [ 4.8641, 70.7415,  0.2497],
+         [ 1.9550,  0.2497, 44.6092]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.9229,  4.8641,  1.9550],
+         [ 4.8641, 70.7415,  0.2497],
+         [ 1.9550,  0.2497, 44.6092]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.4122, -6.1592, 16.3327],
+         [-6.1592, 76.1864, -5.9536],
+         [16.3327, -5.9536, 77.3841]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.4122, -6.1592, 16.3327],
+         [-6.1592, 76.1864, -5.9536],
+         [16.3327, -5.9536, 77.3841]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.4589,  0.2116, -4.1791],
+         [ 0.2116, 70.2613, -0.3572],
+         [-4.1791, -0.3572, 65.5024]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.4589,  0.2116, -4.1791],
+         [ 0.2116, 70.2613, -0.3572],
+         [-4.1791, -0.3572, 65.5024]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.0216, 14.9221,  7.3144],
+         [14.9221, 86.9545, 14.7799],
+         [ 7.3144, 14.7799, 75.4686]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.0216, 14.9221,  7.3144],
+         [14.9221, 86.9545, 14.7799],
+         [ 7.3144, 14.7799, 75.4686]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[65.9172,  9.0852, -5.7834],
+         [ 9.0852, 85.3055,  5.2849],
+         [-5.7834,  5.2849, 75.0462]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[65.9172,  9.0852, -5.7834],
+         [ 9.0852, 85.3055,  5.2849],
+         [-5.7834,  5.2849, 75.0462]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.3755, -0.3722, -2.7440],
+         [-0.3722, 79.0368, -4.0941],
+         [-2.7440, -4.0941, 63.5371]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.3755, -0.3722, -2.7440],
+         [-0.3722, 79.0368, -4.0941],
+         [-2.7440, -4.0941, 63.5371]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.1305,  0.5966, -4.0855],
+         [ 0.5966, 90.4837,  2.6556],
+         [-4.0855,  2.6556, 84.8106]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.1305,  0.5966, -4.0855],
+         [ 0.5966, 90.4837,  2.6556],
+         [-4.0855,  2.6556, 84.8106]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[9.3452e+01, 2.7773e+01, 1.2695e+01],
+         [2.7773e+01, 9.0670e+01, 1.4664e-02],
+         [1.2695e+01, 1.4664e-02, 5.4050e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[9.3452e+01, 2.7773e+01, 1.2695e+01],
+         [2.7773e+01, 9.0670e+01, 1.4664e-02],
+         [1.2695e+01, 1.4664e-02, 5.4050e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[95.3703,  3.1519, -3.8883],
+         [ 3.1519, 62.1636, -1.9091],
+         [-3.8883, -1.9091, 73.4852]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[95.3703,  3.1519, -3.8883],
+         [ 3.1519, 62.1636, -1.9091],
+         [-3.8883, -1.9091, 73.4852]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[93.5264, 15.5920,  6.2532],
+         [15.5920, 81.5953,  2.6221],
+         [ 6.2532,  2.6221, 53.2303]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[93.5264, 15.5920,  6.2532],
+         [15.5920, 81.5953,  2.6221],
+         [ 6.2532,  2.6221, 53.2303]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 89.0928,  11.3393, -13.2031],
+         [ 11.3393,  86.2931,  -0.5951],
+         [-13.2031,  -0.5951,  61.4502]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 89.0928,  11.3393, -13.2031],
+         [ 11.3393,  86.2931,  -0.5951],
+         [-13.2031,  -0.5951,  61.4502]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.0650,  0.2221,  0.0894],
+         [ 0.2221, 75.5630,  3.3794],
+         [ 0.0894,  3.3794, 47.0885]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.0650,  0.2221,  0.0894],
+         [ 0.2221, 75.5630,  3.3794],
+         [ 0.0894,  3.3794, 47.0885]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.3559,  2.2209,  1.0689],
+         [ 2.2209, 66.3021,  1.7912],
+         [ 1.0689,  1.7912, 57.7446]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.3559,  2.2209,  1.0689],
+         [ 2.2209, 66.3021,  1.7912],
+         [ 1.0689,  1.7912, 57.7446]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.0008e+01,  8.1610e+00,  1.0511e-01],
+         [ 8.1610e+00,  1.1276e+02, -6.7197e+00],
+         [ 1.0511e-01, -6.7197e+00,  5.0018e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.0008e+01,  8.1610e+00,  1.0511e-01],
+         [ 8.1610e+00,  1.1276e+02, -6.7197e+00],
+         [ 1.0511e-01, -6.7197e+00,  5.0018e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[71.2872, -6.7156,  2.7254],
+         [-6.7156, 66.5603, -1.6912],
+         [ 2.7254, -1.6912, 43.1888]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[71.2872, -6.7156,  2.7254],
+         [-6.7156, 66.5603, -1.6912],
+         [ 2.7254, -1.6912, 43.1888]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.8809, -1.1537, -7.0928],
+         [-1.1537, 61.8710,  0.5013],
+         [-7.0928,  0.5013, 49.2146]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.8809, -1.1537, -7.0928],
+         [-1.1537, 61.8710,  0.5013],
+         [-7.0928,  0.5013, 49.2146]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[95.4380,  9.1446,  6.0815],
+         [ 9.1446, 96.2245, -3.3221],
+         [ 6.0815, -3.3221, 63.1834]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[95.4380,  9.1446,  6.0815],
+         [ 9.1446, 96.2245, -3.3221],
+         [ 6.0815, -3.3221, 63.1834]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[114.2178,  23.4483,  -8.0116],
+         [ 23.4483,  92.5318,  -4.2390],
+         [ -8.0116,  -4.2390,  61.7942]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[114.2178,  23.4483,  -8.0116],
+         [ 23.4483,  92.5318,  -4.2390],
+         [ -8.0116,  -4.2390,  61.7942]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.9714, -3.4654, -2.7464],
+         [-3.4654, 74.3404,  0.6756],
+         [-2.7464,  0.6756, 65.6054]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.9714, -3.4654, -2.7464],
+         [-3.4654, 74.3404,  0.6756],
+         [-2.7464,  0.6756, 65.6054]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[112.1222,   9.3213,  -6.2156],
+         [  9.3213,  58.0424, -10.7021],
+         [ -6.2156, -10.7021,  61.4524]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[112.1222,   9.3213,  -6.2156],
+         [  9.3213,  58.0424, -10.7021],
+         [ -6.2156, -10.7021,  61.4524]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[86.2182, -0.3097,  2.7476],
+         [-0.3097, 69.4698, -4.0790],
+         [ 2.7476, -4.0790, 61.0419]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[86.2182, -0.3097,  2.7476],
+         [-0.3097, 69.4698, -4.0790],
+         [ 2.7476, -4.0790, 61.0419]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.4238,  8.7733, -3.4271],
+         [ 8.7733, 84.7289, -2.9843],
+         [-3.4271, -2.9843, 71.9920]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.4238,  8.7733, -3.4271],
+         [ 8.7733, 84.7289, -2.9843],
+         [-3.4271, -2.9843, 71.9920]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.5524, -0.6812, -0.2296],
+         [-0.6812, 67.1295,  1.8409],
+         [-0.2296,  1.8409, 59.2829]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.5524, -0.6812, -0.2296],
+         [-0.6812, 67.1295,  1.8409],
+         [-0.2296,  1.8409, 59.2829]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[106.9346,  11.9703,   8.7409],
+         [ 11.9703,  73.5182,   5.8522],
+         [  8.7409,   5.8522,  54.5414]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[106.9346,  11.9703,   8.7409],
+         [ 11.9703,  73.5182,   5.8522],
+         [  8.7409,   5.8522,  54.5414]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.4246, -1.9459, -2.8814],
+         [-1.9459, 81.8715, 11.4700],
+         [-2.8814, 11.4700, 75.9109]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.4246, -1.9459, -2.8814],
+         [-1.9459, 81.8715, 11.4700],
+         [-2.8814, 11.4700, 75.9109]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.3338,  2.2810,  0.2171],
+         [ 2.2810, 77.6137, -0.2256],
+         [ 0.2171, -0.2256, 49.0074]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.3338,  2.2810,  0.2171],
+         [ 2.2810, 77.6137, -0.2256],
+         [ 0.2171, -0.2256, 49.0074]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 67.6950,  -1.4868, -11.0600],
+         [ -1.4868,  70.8395,  -1.2777],
+         [-11.0600,  -1.2777,  57.5404]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 67.6950,  -1.4868, -11.0600],
+         [ -1.4868,  70.8395,  -1.2777],
+         [-11.0600,  -1.2777,  57.5404]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.7532,  0.3052, -1.2270],
+         [ 0.3052, 61.6862, -1.1520],
+         [-1.2270, -1.1520, 54.6977]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.7532,  0.3052, -1.2270],
+         [ 0.3052, 61.6862, -1.1520],
+         [-1.2270, -1.1520, 54.6977]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.3639,  2.2702, -2.5047],
+         [ 2.2702, 96.2352,  6.1457],
+         [-2.5047,  6.1457, 63.0737]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.3639,  2.2702, -2.5047],
+         [ 2.2702, 96.2352,  6.1457],
+         [-2.5047,  6.1457, 63.0737]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[97.1975,  9.6379,  0.4266],
+         [ 9.6379, 89.1258,  2.3590],
+         [ 0.4266,  2.3590, 78.7251]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[97.1975,  9.6379,  0.4266],
+         [ 9.6379, 89.1258,  2.3590],
+         [ 0.4266,  2.3590, 78.7251]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.3826,  0.9483, -6.7469],
+         [ 0.9483, 85.6496,  5.5310],
+         [-6.7469,  5.5310, 83.2797]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.3826,  0.9483, -6.7469],
+         [ 0.9483, 85.6496,  5.5310],
+         [-6.7469,  5.5310, 83.2797]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.3580e+01, -4.7954e+00,  1.8598e-01],
+         [-4.7954e+00,  7.2473e+01, -2.5840e-02],
+         [ 1.8598e-01, -2.5840e-02,  4.7326e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.3580e+01, -4.7954e+00,  1.8598e-01],
+         [-4.7954e+00,  7.2473e+01, -2.5840e-02],
+         [ 1.8598e-01, -2.5840e-02,  4.7326e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.8684,  4.9713,  0.6078],
+         [ 4.9713, 76.5524,  2.9399],
+         [ 0.6078,  2.9399, 58.1515]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.8684,  4.9713,  0.6078],
+         [ 4.9713, 76.5524,  2.9399],
+         [ 0.6078,  2.9399, 58.1515]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 70.5652,  12.4002,  -0.6158],
+         [ 12.4002, 119.6109,  -5.5785],
+         [ -0.6158,  -5.5785,  50.7665]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 70.5652,  12.4002,  -0.6158],
+         [ 12.4002, 119.6109,  -5.5785],
+         [ -0.6158,  -5.5785,  50.7665]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[101.2047,  -0.6225,   7.3445],
+         [ -0.6225,  69.5114,  -5.1435],
+         [  7.3445,  -5.1435,  73.1460]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[101.2047,  -0.6225,   7.3445],
+         [ -0.6225,  69.5114,  -5.1435],
+         [  7.3445,  -5.1435,  73.1460]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.5117,  5.6292,  2.9274],
+         [ 5.6292, 78.0645,  2.7011],
+         [ 2.9274,  2.7011, 69.8941]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.5117,  5.6292,  2.9274],
+         [ 5.6292, 78.0645,  2.7011],
+         [ 2.9274,  2.7011, 69.8941]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.6375,  7.3095, -2.4309],
+         [ 7.3095, 79.1710,  1.0082],
+         [-2.4309,  1.0082, 72.7987]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.6375,  7.3095, -2.4309],
+         [ 7.3095, 79.1710,  1.0082],
+         [-2.4309,  1.0082, 72.7987]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 85.6479,   5.1212,   1.9893],
+         [  5.1212, 102.1519,  -1.5685],
+         [  1.9893,  -1.5685,  48.2775]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 85.6479,   5.1212,   1.9893],
+         [  5.1212, 102.1519,  -1.5685],
+         [  1.9893,  -1.5685,  48.2775]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 68.1592,  -6.3514,  -0.1439],
+         [ -6.3514,  97.6174, -14.0939],
+         [ -0.1439, -14.0939,  70.6692]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 68.1592,  -6.3514,  -0.1439],
+         [ -6.3514,  97.6174, -14.0939],
+         [ -0.1439, -14.0939,  70.6692]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.7404, 12.7225, -0.5053],
+         [12.7225, 94.6326, -5.2950],
+         [-0.5053, -5.2950, 66.8349]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.7404, 12.7225, -0.5053],
+         [12.7225, 94.6326, -5.2950],
+         [-0.5053, -5.2950, 66.8349]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[62.4578,  3.2073, -0.3095],
+         [ 3.2073, 69.8739,  2.8495],
+         [-0.3095,  2.8495, 66.9125]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[62.4578,  3.2073, -0.3095],
+         [ 3.2073, 69.8739,  2.8495],
+         [-0.3095,  2.8495, 66.9125]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 58.3348,   1.3606, -11.2342],
+         [  1.3606,  67.4117,   8.1753],
+         [-11.2342,   8.1753,  70.4582]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 58.3348,   1.3606, -11.2342],
+         [  1.3606,  67.4117,   8.1753],
+         [-11.2342,   8.1753,  70.4582]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[102.6493,   7.7050, -13.3592],
+         [  7.7050,  62.8711,  -6.9391],
+         [-13.3592,  -6.9391,  58.8286]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[102.6493,   7.7050, -13.3592],
+         [  7.7050,  62.8711,  -6.9391],
+         [-13.3592,  -6.9391,  58.8286]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[104.0684,  -6.9863,  -8.5516],
+         [ -6.9863,  71.1033,   0.3684],
+         [ -8.5516,   0.3684,  66.0588]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[104.0684,  -6.9863,  -8.5516],
+         [ -6.9863,  71.1033,   0.3684],
+         [ -8.5516,   0.3684,  66.0588]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[99.0614,  0.6036, -1.0951],
+         [ 0.6036, 82.6838,  9.9259],
+         [-1.0951,  9.9259, 72.7444]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[99.0614,  0.6036, -1.0951],
+         [ 0.6036, 82.6838,  9.9259],
+         [-1.0951,  9.9259, 72.7444]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 95.4612,  22.2131,  -4.6688],
+         [ 22.2131, 105.9327,  -4.6997],
+         [ -4.6688,  -4.6997,  66.9310]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 95.4612,  22.2131,  -4.6688],
+         [ 22.2131, 105.9327,  -4.6997],
+         [ -4.6688,  -4.6997,  66.9310]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.3319, -1.4816, -1.8295],
+         [-1.4816, 58.2821,  0.1387],
+         [-1.8295,  0.1387, 44.2670]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.3319, -1.4816, -1.8295],
+         [-1.4816, 58.2821,  0.1387],
+         [-1.8295,  0.1387, 44.2670]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.0673,  2.3864, -1.1702],
+         [ 2.3864, 89.5432, -2.2060],
+         [-1.1702, -2.2060, 55.6913]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.0673,  2.3864, -1.1702],
+         [ 2.3864, 89.5432, -2.2060],
+         [-1.1702, -2.2060, 55.6913]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.9670, 14.5812,  2.2465],
+         [14.5812, 77.0819,  4.1653],
+         [ 2.2465,  4.1653, 66.8549]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.9670, 14.5812,  2.2465],
+         [14.5812, 77.0819,  4.1653],
+         [ 2.2465,  4.1653, 66.8549]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[95.8186, -5.4886, -4.5265],
+         [-5.4886, 82.7645,  3.0772],
+         [-4.5265,  3.0772, 62.6307]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[95.8186, -5.4886, -4.5265],
+         [-5.4886, 82.7645,  3.0772],
+         [-4.5265,  3.0772, 62.6307]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[96.9196, 15.1722, -0.1039],
+         [15.1722, 91.4281,  3.3839],
+         [-0.1039,  3.3839, 57.2985]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[96.9196, 15.1722, -0.1039],
+         [15.1722, 91.4281,  3.3839],
+         [-0.1039,  3.3839, 57.2985]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[93.8297, 16.0137,  6.3679],
+         [16.0137, 83.1248,  6.0032],
+         [ 6.3679,  6.0032, 75.0038]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[93.8297, 16.0137,  6.3679],
+         [16.0137, 83.1248,  6.0032],
+         [ 6.3679,  6.0032, 75.0038]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.8265, -5.3039, -0.3600],
+         [-5.3039, 81.8975,  0.7693],
+         [-0.3600,  0.7693, 83.5987]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.8265, -5.3039, -0.3600],
+         [-5.3039, 81.8975,  0.7693],
+         [-0.3600,  0.7693, 83.5987]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.6959,  9.8452,  7.1609],
+         [ 9.8452, 94.2349,  4.6438],
+         [ 7.1609,  4.6438, 64.4267]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.6959,  9.8452,  7.1609],
+         [ 9.8452, 94.2349,  4.6438],
+         [ 7.1609,  4.6438, 64.4267]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.7086,  1.2340, -3.2846],
+         [ 1.2340, 73.9489, -0.9118],
+         [-3.2846, -0.9118, 79.5743]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.7086,  1.2340, -3.2846],
+         [ 1.2340, 73.9489, -0.9118],
+         [-3.2846, -0.9118, 79.5743]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.6397,  5.6225, -6.4122],
+         [ 5.6225, 84.2626, -1.9133],
+         [-6.4122, -1.9133, 64.4538]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.6397,  5.6225, -6.4122],
+         [ 5.6225, 84.2626, -1.9133],
+         [-6.4122, -1.9133, 64.4538]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[99.3374,  7.4179,  0.1320],
+         [ 7.4179, 71.7432,  3.5073],
+         [ 0.1320,  3.5073, 70.9663]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[99.3374,  7.4179,  0.1320],
+         [ 7.4179, 71.7432,  3.5073],
+         [ 0.1320,  3.5073, 70.9663]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 68.8193,  28.9212,   0.0000],
+         [ 28.9212, 108.9100,   0.0000],
+         [  0.0000,   0.0000,  40.8406]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 68.8193,  28.9212,   0.0000],
+         [ 28.9212, 108.9100,   0.0000],
+         [  0.0000,   0.0000,  40.8406]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 74.5651,   2.4727, -11.0992],
+         [  2.4727,  73.5693,  -1.0161],
+         [-11.0992,  -1.0161,  69.6317]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 74.5651,   2.4727, -11.0992],
+         [  2.4727,  73.5693,  -1.0161],
+         [-11.0992,  -1.0161,  69.6317]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.7368,  9.3936,  6.6369],
+         [ 9.3936, 72.7936,  0.5698],
+         [ 6.6369,  0.5698, 57.9661]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.7368,  9.3936,  6.6369],
+         [ 9.3936, 72.7936,  0.5698],
+         [ 6.6369,  0.5698, 57.9661]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 88.4601, -10.9899,   3.3618],
+         [-10.9899,  72.9310,  12.2033],
+         [  3.3618,  12.2033,  68.2682]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 88.4601, -10.9899,   3.3618],
+         [-10.9899,  72.9310,  12.2033],
+         [  3.3618,  12.2033,  68.2682]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.7577, -2.8806, -4.5661],
+         [-2.8806, 65.9348, -4.1167],
+         [-4.5661, -4.1167, 56.3811]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.7577, -2.8806, -4.5661],
+         [-2.8806, 65.9348, -4.1167],
+         [-4.5661, -4.1167, 56.3811]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.9250,  0.7264, -9.2575],
+         [ 0.7264, 75.8012,  0.4306],
+         [-9.2575,  0.4306, 65.1053]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.9250,  0.7264, -9.2575],
+         [ 0.7264, 75.8012,  0.4306],
+         [-9.2575,  0.4306, 65.1053]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.2342, -1.8191,  6.2889],
+         [-1.8191, 94.5547, -0.3200],
+         [ 6.2889, -0.3200, 60.9610]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.2342, -1.8191,  6.2889],
+         [-1.8191, 94.5547, -0.3200],
+         [ 6.2889, -0.3200, 60.9610]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[56.3230,  4.4727,  1.5406],
+         [ 4.4727, 78.5008,  7.7257],
+         [ 1.5406,  7.7257, 59.8826]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[56.3230,  4.4727,  1.5406],
+         [ 4.4727, 78.5008,  7.7257],
+         [ 1.5406,  7.7257, 59.8826]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.8591,  6.2675,  2.5910],
+         [ 6.2675, 89.9204,  9.9601],
+         [ 2.5910,  9.9601, 72.6573]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.8591,  6.2675,  2.5910],
+         [ 6.2675, 89.9204,  9.9601],
+         [ 2.5910,  9.9601, 72.6573]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.5266,  0.5216, 10.7634],
+         [ 0.5216, 76.8438, -1.2177],
+         [10.7634, -1.2177, 73.0640]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.5266,  0.5216, 10.7634],
+         [ 0.5216, 76.8438, -1.2177],
+         [10.7634, -1.2177, 73.0640]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 76.3652,  18.8134,   5.5297],
+         [ 18.8134, 113.8405,  13.3769],
+         [  5.5297,  13.3769,  74.3935]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 76.3652,  18.8134,   5.5297],
+         [ 18.8134, 113.8405,  13.3769],
+         [  5.5297,  13.3769,  74.3935]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 64.3918,  -0.7285, -14.7856],
+         [ -0.7285,  67.0039,   0.9926],
+         [-14.7856,   0.9926,  73.5402]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 64.3918,  -0.7285, -14.7856],
+         [ -0.7285,  67.0039,   0.9926],
+         [-14.7856,   0.9926,  73.5402]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.3052, -0.4177, -3.3762],
+         [-0.4177, 81.3216, -0.2192],
+         [-3.3762, -0.2192, 79.5884]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.3052, -0.4177, -3.3762],
+         [-0.4177, 81.3216, -0.2192],
+         [-3.3762, -0.2192, 79.5884]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.2227e+01,  1.6111e+01, -2.9327e-06],
+         [ 1.6111e+01,  1.1005e+02, -6.0853e-05],
+         [-2.9327e-06, -6.0853e-05,  5.6291e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.2227e+01,  1.6111e+01, -2.9327e-06],
+         [ 1.6111e+01,  1.1005e+02, -6.0853e-05],
+         [-2.9327e-06, -6.0853e-05,  5.6291e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.3874, -2.5412, -3.8313],
+         [-2.5412, 78.9390, -2.7097],
+         [-3.8313, -2.7097, 80.1084]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.3874, -2.5412, -3.8313],
+         [-2.5412, 78.9390, -2.7097],
+         [-3.8313, -2.7097, 80.1084]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.5655,  0.4915, -2.7901],
+         [ 0.4915, 73.8457,  8.1494],
+         [-2.7901,  8.1494, 78.1375]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.5655,  0.4915, -2.7901],
+         [ 0.4915, 73.8457,  8.1494],
+         [-2.7901,  8.1494, 78.1375]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 80.7323,   8.9186, -12.1347],
+         [  8.9186,  65.2667,   8.0583],
+         [-12.1347,   8.0583,  62.3786]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 80.7323,   8.9186, -12.1347],
+         [  8.9186,  65.2667,   8.0583],
+         [-12.1347,   8.0583,  62.3786]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.2673,  0.8905, -1.2537],
+         [ 0.8905, 77.9076, -2.6427],
+         [-1.2537, -2.6427, 70.5153]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.2673,  0.8905, -1.2537],
+         [ 0.8905, 77.9076, -2.6427],
+         [-1.2537, -2.6427, 70.5153]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.3378,  2.0149, -1.5488],
+         [ 2.0149, 80.7370, -1.4135],
+         [-1.5488, -1.4135, 71.9187]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.3378,  2.0149, -1.5488],
+         [ 2.0149, 80.7370, -1.4135],
+         [-1.5488, -1.4135, 71.9187]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.1521,  5.0448,  6.9017],
+         [ 5.0448, 68.2444,  5.2585],
+         [ 6.9017,  5.2585, 69.5916]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.1521,  5.0448,  6.9017],
+         [ 5.0448, 68.2444,  5.2585],
+         [ 6.9017,  5.2585, 69.5916]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[64.9773,  4.9823, -2.0861],
+         [ 4.9823, 94.1215,  0.6674],
+         [-2.0861,  0.6674, 61.6389]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[64.9773,  4.9823, -2.0861],
+         [ 4.9823, 94.1215,  0.6674],
+         [-2.0861,  0.6674, 61.6389]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[144.1873,  27.7595,  15.6887],
+         [ 27.7595,  72.9781,  11.8647],
+         [ 15.6887,  11.8647,  58.3079]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[144.1873,  27.7595,  15.6887],
+         [ 27.7595,  72.9781,  11.8647],
+         [ 15.6887,  11.8647,  58.3079]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.9540,  0.9494, -3.1082],
+         [ 0.9494, 60.8445,  3.1705],
+         [-3.1082,  3.1705, 37.2589]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.9540,  0.9494, -3.1082],
+         [ 0.9494, 60.8445,  3.1705],
+         [-3.1082,  3.1705, 37.2589]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[60.9256, -1.7011, -0.7324],
+         [-1.7011, 76.2077, 10.3308],
+         [-0.7324, 10.3308, 59.9758]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[60.9256, -1.7011, -0.7324],
+         [-1.7011, 76.2077, 10.3308],
+         [-0.7324, 10.3308, 59.9758]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 90.6798,   3.2300,  -1.5587],
+         [  3.2300, 114.1314,   6.1845],
+         [ -1.5587,   6.1845,  68.2672]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 90.6798,   3.2300,  -1.5587],
+         [  3.2300, 114.1314,   6.1845],
+         [ -1.5587,   6.1845,  68.2672]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.0162, -6.7097, -0.9948],
+         [-6.7097, 72.7102,  0.6314],
+         [-0.9948,  0.6314, 47.5233]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.0162, -6.7097, -0.9948],
+         [-6.7097, 72.7102,  0.6314],
+         [-0.9948,  0.6314, 47.5233]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[71.5095, -2.8035, -3.8288],
+         [-2.8035, 80.5493, -3.7534],
+         [-3.8288, -3.7534, 53.0614]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[71.5095, -2.8035, -3.8288],
+         [-2.8035, 80.5493, -3.7534],
+         [-3.8288, -3.7534, 53.0614]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[60.5397,  7.2557,  3.2286],
+         [ 7.2557, 80.2286,  9.8927],
+         [ 3.2286,  9.8927, 66.4566]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[60.5397,  7.2557,  3.2286],
+         [ 7.2557, 80.2286,  9.8927],
+         [ 3.2286,  9.8927, 66.4566]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[97.8376, -1.8837,  0.9799],
+         [-1.8837, 67.0249, -1.1085],
+         [ 0.9799, -1.1085, 49.4086]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[97.8376, -1.8837,  0.9799],
+         [-1.8837, 67.0249, -1.1085],
+         [ 0.9799, -1.1085, 49.4086]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[9.4873e+01, 1.3549e+01, 3.5664e-02],
+         [1.3549e+01, 7.5166e+01, 2.6458e+00],
+         [3.5664e-02, 2.6458e+00, 5.2018e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[9.4873e+01, 1.3549e+01, 3.5664e-02],
+         [1.3549e+01, 7.5166e+01, 2.6458e+00],
+         [3.5664e-02, 2.6458e+00, 5.2018e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 7.5467e+01, -1.5139e-01,  1.8885e+00],
+         [-1.5139e-01,  6.7112e+01, -1.4626e-02],
+         [ 1.8885e+00, -1.4626e-02,  6.6871e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 7.5467e+01, -1.5139e-01,  1.8885e+00],
+         [-1.5139e-01,  6.7112e+01, -1.4626e-02],
+         [ 1.8885e+00, -1.4626e-02,  6.6871e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.8192, -3.6124, -3.8752],
+         [-3.6124, 73.6342,  4.5589],
+         [-3.8752,  4.5589, 49.6550]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.8192, -3.6124, -3.8752],
+         [-3.6124, 73.6342,  4.5589],
+         [-3.8752,  4.5589, 49.6550]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[97.2037, -0.6748,  3.5047],
+         [-0.6748, 78.8038,  4.0184],
+         [ 3.5047,  4.0184, 77.8698]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[97.2037, -0.6748,  3.5047],
+         [-0.6748, 78.8038,  4.0184],
+         [ 3.5047,  4.0184, 77.8698]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[71.0610, 36.9385,  0.0000],
+         [36.9385, 95.6173,  0.0000],
+         [ 0.0000,  0.0000, 38.2242]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[71.0610, 36.9385,  0.0000],
+         [36.9385, 95.6173,  0.0000],
+         [ 0.0000,  0.0000, 38.2242]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[75.8831,  2.8848,  1.2964],
+         [ 2.8848, 77.5212, -0.9475],
+         [ 1.2964, -0.9475, 74.6952]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[75.8831,  2.8848,  1.2964],
+         [ 2.8848, 77.5212, -0.9475],
+         [ 1.2964, -0.9475, 74.6952]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[88.1698,  0.8416,  3.6931],
+         [ 0.8416, 80.0467,  6.4352],
+         [ 3.6931,  6.4352, 66.7830]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[88.1698,  0.8416,  3.6931],
+         [ 0.8416, 80.0467,  6.4352],
+         [ 3.6931,  6.4352, 66.7830]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.8100, 10.1653,  2.8245],
+         [10.1653, 86.6086, -3.5537],
+         [ 2.8245, -3.5537, 72.6772]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.8100, 10.1653,  2.8245],
+         [10.1653, 86.6086, -3.5537],
+         [ 2.8245, -3.5537, 72.6772]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[92.0457, 13.2505, -3.3084],
+         [13.2505, 65.9562, -0.0983],
+         [-3.3084, -0.0983, 62.5385]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[92.0457, 13.2505, -3.3084],
+         [13.2505, 65.9562, -0.0983],
+         [-3.3084, -0.0983, 62.5385]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[86.9902, 11.2443, -1.7265],
+         [11.2443, 78.6360, -5.2439],
+         [-1.7265, -5.2439, 44.3210]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[86.9902, 11.2443, -1.7265],
+         [11.2443, 78.6360, -5.2439],
+         [-1.7265, -5.2439, 44.3210]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 5.8765e+01,  1.9481e-02, -2.2208e+00],
+         [ 1.9481e-02,  5.9514e+01, -3.4932e-01],
+         [-2.2208e+00, -3.4932e-01,  8.1833e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 5.8765e+01,  1.9481e-02, -2.2208e+00],
+         [ 1.9481e-02,  5.9514e+01, -3.4932e-01],
+         [-2.2208e+00, -3.4932e-01,  8.1833e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.4762, -1.3757,  1.2949],
+         [-1.3757, 61.3324, -1.9997],
+         [ 1.2949, -1.9997, 48.6279]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.4762, -1.3757,  1.2949],
+         [-1.3757, 61.3324, -1.9997],
+         [ 1.2949, -1.9997, 48.6279]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.5462,  5.5274, -0.9782],
+         [ 5.5274, 69.2417, -3.5335],
+         [-0.9782, -3.5335, 71.4214]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.5462,  5.5274, -0.9782],
+         [ 5.5274, 69.2417, -3.5335],
+         [-0.9782, -3.5335, 71.4214]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.5965,  8.8444,  1.3437],
+         [ 8.8444, 92.8090, -4.0817],
+         [ 1.3437, -4.0817, 69.3588]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.5965,  8.8444,  1.3437],
+         [ 8.8444, 92.8090, -4.0817],
+         [ 1.3437, -4.0817, 69.3588]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[86.2707,  6.0091,  1.5560],
+         [ 6.0091, 97.3245,  4.1211],
+         [ 1.5560,  4.1211, 76.7837]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[86.2707,  6.0091,  1.5560],
+         [ 6.0091, 97.3245,  4.1211],
+         [ 1.5560,  4.1211, 76.7837]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.0659, 10.3779, -2.2956],
+         [10.3779, 95.3310,  1.8041],
+         [-2.2956,  1.8041, 57.9517]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.0659, 10.3779, -2.2956],
+         [10.3779, 95.3310,  1.8041],
+         [-2.2956,  1.8041, 57.9517]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.4756, -0.1064, -1.8492],
+         [-0.1064, 88.6885,  1.3027],
+         [-1.8492,  1.3027, 49.2603]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.4756, -0.1064, -1.8492],
+         [-0.1064, 88.6885,  1.3027],
+         [-1.8492,  1.3027, 49.2603]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[89.4027,  6.9452,  0.9919],
+         [ 6.9452, 93.0383,  2.3720],
+         [ 0.9919,  2.3720, 81.9007]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[89.4027,  6.9452,  0.9919],
+         [ 6.9452, 93.0383,  2.3720],
+         [ 0.9919,  2.3720, 81.9007]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.9146, 11.3809, -8.4095],
+         [11.3809, 72.4532,  4.1869],
+         [-8.4095,  4.1869, 65.4740]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.9146, 11.3809, -8.4095],
+         [11.3809, 72.4532,  4.1869],
+         [-8.4095,  4.1869, 65.4740]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.7300,  9.6920,  2.7469],
+         [ 9.6920, 75.9622,  5.0780],
+         [ 2.7469,  5.0780, 56.1686]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.7300,  9.6920,  2.7469],
+         [ 9.6920, 75.9622,  5.0780],
+         [ 2.7469,  5.0780, 56.1686]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.8346, -1.8539, -2.7520],
+         [-1.8539, 79.2437,  2.1677],
+         [-2.7520,  2.1677, 69.4455]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.8346, -1.8539, -2.7520],
+         [-1.8539, 79.2437,  2.1677],
+         [-2.7520,  2.1677, 69.4455]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 72.7575,   3.7175, -11.7382],
+         [  3.7175,  71.7626,  -1.9400],
+         [-11.7382,  -1.9400,  62.8810]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 72.7575,   3.7175, -11.7382],
+         [  3.7175,  71.7626,  -1.9400],
+         [-11.7382,  -1.9400,  62.8810]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.3647,  0.9509,  4.0741],
+         [ 0.9509, 69.4283, -0.5718],
+         [ 4.0741, -0.5718, 66.9922]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.3647,  0.9509,  4.0741],
+         [ 0.9509, 69.4283, -0.5718],
+         [ 4.0741, -0.5718, 66.9922]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.9678, 10.5667, -0.5730],
+         [10.5667, 93.3524,  1.2489],
+         [-0.5730,  1.2489, 59.8709]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.9678, 10.5667, -0.5730],
+         [10.5667, 93.3524,  1.2489],
+         [-0.5730,  1.2489, 59.8709]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.7812e+01,  7.8503e+00,  5.7847e-02],
+         [ 7.8503e+00,  7.0239e+01, -4.0669e-03],
+         [ 5.7847e-02, -4.0669e-03,  6.5404e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.7812e+01,  7.8503e+00,  5.7847e-02],
+         [ 7.8503e+00,  7.0239e+01, -4.0669e-03],
+         [ 5.7847e-02, -4.0669e-03,  6.5404e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[85.1085,  2.9023,  3.5363],
+         [ 2.9023, 76.6732, -3.2571],
+         [ 3.5363, -3.2571, 63.1193]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[85.1085,  2.9023,  3.5363],
+         [ 2.9023, 76.6732, -3.2571],
+         [ 3.5363, -3.2571, 63.1193]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 93.1407,   0.9486, -20.8502],
+         [  0.9486,  92.9547,  11.9225],
+         [-20.8502,  11.9225,  74.6229]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 93.1407,   0.9486, -20.8502],
+         [  0.9486,  92.9547,  11.9225],
+         [-20.8502,  11.9225,  74.6229]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.0690,  1.7509, -0.6677],
+         [ 1.7509, 76.1951, -0.3235],
+         [-0.6677, -0.3235, 71.5685]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.0690,  1.7509, -0.6677],
+         [ 1.7509, 76.1951, -0.3235],
+         [-0.6677, -0.3235, 71.5685]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.8860,  0.9463, -1.2589],
+         [ 0.9463, 81.3372,  6.3157],
+         [-1.2589,  6.3157, 64.7608]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.8860,  0.9463, -1.2589],
+         [ 0.9463, 81.3372,  6.3157],
+         [-1.2589,  6.3157, 64.7608]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[98.1436, 13.7585,  0.2319],
+         [13.7585, 92.7205,  0.1156],
+         [ 0.2319,  0.1156, 54.4884]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[98.1436, 13.7585,  0.2319],
+         [13.7585, 92.7205,  0.1156],
+         [ 0.2319,  0.1156, 54.4884]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.3508,  7.8317,  1.2568],
+         [ 7.8317, 81.6383, -2.1312],
+         [ 1.2568, -2.1312, 39.0263]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.3508,  7.8317,  1.2568],
+         [ 7.8317, 81.6383, -2.1312],
+         [ 1.2568, -2.1312, 39.0263]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[106.0744,  41.4488,  11.8840],
+         [ 41.4488, 104.7377,   5.1605],
+         [ 11.8840,   5.1605,  63.7064]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[106.0744,  41.4488,  11.8840],
+         [ 41.4488, 104.7377,   5.1605],
+         [ 11.8840,   5.1605,  63.7064]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 87.0721, -11.6983,   0.5804],
+         [-11.6983,  75.3559,  -0.1794],
+         [  0.5804,  -0.1794,  50.5103]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 87.0721, -11.6983,   0.5804],
+         [-11.6983,  75.3559,  -0.1794],
+         [  0.5804,  -0.1794,  50.5103]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.1223,  6.4646, -7.4560],
+         [ 6.4646, 83.1442,  1.9049],
+         [-7.4560,  1.9049, 76.8461]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.1223,  6.4646, -7.4560],
+         [ 6.4646, 83.1442,  1.9049],
+         [-7.4560,  1.9049, 76.8461]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 81.8794, -10.5513,  -2.1649],
+         [-10.5513,  61.2992,   0.8172],
+         [ -2.1649,   0.8172,  67.2531]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 81.8794, -10.5513,  -2.1649],
+         [-10.5513,  61.2992,   0.8172],
+         [ -2.1649,   0.8172,  67.2531]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[93.8095,  2.4649,  9.6867],
+         [ 2.4649, 60.2140, -0.4446],
+         [ 9.6867, -0.4446, 69.3402]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[93.8095,  2.4649,  9.6867],
+         [ 2.4649, 60.2140, -0.4446],
+         [ 9.6867, -0.4446, 69.3402]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[96.9255,  0.5788,  4.0196],
+         [ 0.5788, 80.8305,  1.3576],
+         [ 4.0196,  1.3576, 80.5582]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[96.9255,  0.5788,  4.0196],
+         [ 0.5788, 80.8305,  1.3576],
+         [ 4.0196,  1.3576, 80.5582]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.2534,  2.1700, -2.2794],
+         [ 2.1700, 79.4196,  2.5241],
+         [-2.2794,  2.5241, 71.2062]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.2534,  2.1700, -2.2794],
+         [ 2.1700, 79.4196,  2.5241],
+         [-2.2794,  2.5241, 71.2062]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[59.8319, -3.6095, -5.1997],
+         [-3.6095, 83.7346, -0.5405],
+         [-5.1997, -0.5405, 72.4006]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[59.8319, -3.6095, -5.1997],
+         [-3.6095, 83.7346, -0.5405],
+         [-5.1997, -0.5405, 72.4006]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 6.5198e+01,  2.5028e+01, -1.0645e-02],
+         [ 2.5028e+01,  1.1287e+02, -6.0733e-03],
+         [-1.0645e-02, -6.0733e-03,  5.1518e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 6.5198e+01,  2.5028e+01, -1.0645e-02],
+         [ 2.5028e+01,  1.1287e+02, -6.0733e-03],
+         [-1.0645e-02, -6.0733e-03,  5.1518e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[60.9743,  4.7999, -2.4333],
+         [ 4.7999, 64.4387,  3.1150],
+         [-2.4333,  3.1150, 50.8318]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[60.9743,  4.7999, -2.4333],
+         [ 4.7999, 64.4387,  3.1150],
+         [-2.4333,  3.1150, 50.8318]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[91.8660, -6.1902,  8.1717],
+         [-6.1902, 78.4108, -2.8730],
+         [ 8.1717, -2.8730, 62.7006]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[91.8660, -6.1902,  8.1717],
+         [-6.1902, 78.4108, -2.8730],
+         [ 8.1717, -2.8730, 62.7006]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.9012, -7.9290, 12.0250],
+         [-7.9290, 85.0352, -5.0642],
+         [12.0250, -5.0642, 72.7825]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.9012, -7.9290, 12.0250],
+         [-7.9290, 85.0352, -5.0642],
+         [12.0250, -5.0642, 72.7825]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[7.2431e+01, 2.1975e-02, 1.1864e+00],
+         [2.1975e-02, 6.4570e+01, 6.3984e-01],
+         [1.1864e+00, 6.3984e-01, 6.4221e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[7.2431e+01, 2.1975e-02, 1.1864e+00],
+         [2.1975e-02, 6.4570e+01, 6.3984e-01],
+         [1.1864e+00, 6.3984e-01, 6.4221e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[93.5659,  6.7668, -6.2875],
+         [ 6.7668, 89.5620, -3.8032],
+         [-6.2875, -3.8032, 66.5801]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[93.5659,  6.7668, -6.2875],
+         [ 6.7668, 89.5620, -3.8032],
+         [-6.2875, -3.8032, 66.5801]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.8742, -1.8420,  4.0552],
+         [-1.8420, 84.3330, -6.4755],
+         [ 4.0552, -6.4755, 85.4096]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.8742, -1.8420,  4.0552],
+         [-1.8420, 84.3330, -6.4755],
+         [ 4.0552, -6.4755, 85.4096]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.3368, -1.9441,  0.5440],
+         [-1.9441, 71.5411,  1.2207],
+         [ 0.5440,  1.2207, 69.6124]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.3368, -1.9441,  0.5440],
+         [-1.9441, 71.5411,  1.2207],
+         [ 0.5440,  1.2207, 69.6124]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[106.2571,  -4.2145,  -2.9002],
+         [ -4.2145,  69.2644,   0.9050],
+         [ -2.9002,   0.9050,  52.5823]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[106.2571,  -4.2145,  -2.9002],
+         [ -4.2145,  69.2644,   0.9050],
+         [ -2.9002,   0.9050,  52.5823]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[112.4522,   6.6723,   2.3156],
+         [  6.6723,  72.6557,   2.5795],
+         [  2.3156,   2.5795,  69.6413]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[112.4522,   6.6723,   2.3156],
+         [  6.6723,  72.6557,   2.5795],
+         [  2.3156,   2.5795,  69.6413]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 81.1405,   3.5611, -11.2263],
+         [  3.5611,  86.3621,  -2.3152],
+         [-11.2263,  -2.3152,  75.2361]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 81.1405,   3.5611, -11.2263],
+         [  3.5611,  86.3621,  -2.3152],
+         [-11.2263,  -2.3152,  75.2361]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[108.1838,  28.4860, -14.1143],
+         [ 28.4860,  95.5033, -12.6926],
+         [-14.1143, -12.6926,  63.1290]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[108.1838,  28.4860, -14.1143],
+         [ 28.4860,  95.5033, -12.6926],
+         [-14.1143, -12.6926,  63.1290]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[63.8227, -7.7377,  1.1885],
+         [-7.7377, 53.6851,  2.9503],
+         [ 1.1885,  2.9503, 50.9165]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[63.8227, -7.7377,  1.1885],
+         [-7.7377, 53.6851,  2.9503],
+         [ 1.1885,  2.9503, 50.9165]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[108.6601,   2.4113,   0.8373],
+         [  2.4113,  85.0214,  -2.2875],
+         [  0.8373,  -2.2875,  62.8588]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[108.6601,   2.4113,   0.8373],
+         [  2.4113,  85.0214,  -2.2875],
+         [  0.8373,  -2.2875,  62.8588]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[72.4331,  2.6104, -4.5535],
+         [ 2.6104, 90.8375,  8.3215],
+         [-4.5535,  8.3215, 80.5921]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[72.4331,  2.6104, -4.5535],
+         [ 2.6104, 90.8375,  8.3215],
+         [-4.5535,  8.3215, 80.5921]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[83.4132, -8.2629, 10.4955],
+         [-8.2629, 81.5807, -1.6614],
+         [10.4955, -1.6614, 45.0749]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[83.4132, -8.2629, 10.4955],
+         [-8.2629, 81.5807, -1.6614],
+         [10.4955, -1.6614, 45.0749]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[129.6442,  -5.7608,  -5.7166],
+         [ -5.7608,  55.1869,   0.4016],
+         [ -5.7166,   0.4016,  51.3729]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[129.6442,  -5.7608,  -5.7166],
+         [ -5.7608,  55.1869,   0.4016],
+         [ -5.7166,   0.4016,  51.3729]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.2568,  5.1983,  9.1937],
+         [ 5.1983, 75.5981, -2.1058],
+         [ 9.1937, -2.1058, 65.5461]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.2568,  5.1983,  9.1937],
+         [ 5.1983, 75.5981, -2.1058],
+         [ 9.1937, -2.1058, 65.5461]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[60.6804,  5.0697,  0.5328],
+         [ 5.0697, 74.2510, 11.8723],
+         [ 0.5328, 11.8723, 78.8265]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[60.6804,  5.0697,  0.5328],
+         [ 5.0697, 74.2510, 11.8723],
+         [ 0.5328, 11.8723, 78.8265]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[89.0762, -0.5147, -0.0950],
+         [-0.5147, 77.3651,  3.1788],
+         [-0.0950,  3.1788, 69.0525]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[89.0762, -0.5147, -0.0950],
+         [-0.5147, 77.3651,  3.1788],
+         [-0.0950,  3.1788, 69.0525]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.8197, -0.4095, -3.4006],
+         [-0.4095, 77.2274,  0.2267],
+         [-3.4006,  0.2267, 78.8362]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.8197, -0.4095, -3.4006],
+         [-0.4095, 77.2274,  0.2267],
+         [-3.4006,  0.2267, 78.8362]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.3604e+01,  8.2407e+00, -1.2083e-02],
+         [ 8.2407e+00,  8.0411e+01,  4.6558e+00],
+         [-1.2083e-02,  4.6558e+00,  6.3737e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.3604e+01,  8.2407e+00, -1.2083e-02],
+         [ 8.2407e+00,  8.0411e+01,  4.6558e+00],
+         [-1.2083e-02,  4.6558e+00,  6.3737e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[64.3592, 11.4760,  3.1256],
+         [11.4760, 60.6799,  1.1248],
+         [ 3.1256,  1.1248, 55.7162]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[64.3592, 11.4760,  3.1256],
+         [11.4760, 60.6799,  1.1248],
+         [ 3.1256,  1.1248, 55.7162]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[77.8950,  0.1468,  3.9850],
+         [ 0.1468, 56.5640,  0.2531],
+         [ 3.9850,  0.2531, 50.6684]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[77.8950,  0.1468,  3.9850],
+         [ 0.1468, 56.5640,  0.2531],
+         [ 3.9850,  0.2531, 50.6684]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.1721, -1.1182,  5.5747],
+         [-1.1182, 77.5936,  6.0744],
+         [ 5.5747,  6.0744, 49.4773]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.1721, -1.1182,  5.5747],
+         [-1.1182, 77.5936,  6.0744],
+         [ 5.5747,  6.0744, 49.4773]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[113.5836,  13.1169,  25.3545],
+         [ 13.1169,  76.7856,   3.5096],
+         [ 25.3545,   3.5096,  67.5821]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[113.5836,  13.1169,  25.3545],
+         [ 13.1169,  76.7856,   3.5096],
+         [ 25.3545,   3.5096,  67.5821]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.4218, -0.4899, -4.0053],
+         [-0.4899, 72.0873, -0.3939],
+         [-4.0053, -0.3939, 68.8774]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.4218, -0.4899, -4.0053],
+         [-0.4899, 72.0873, -0.3939],
+         [-4.0053, -0.3939, 68.8774]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.6029, -4.9750,  5.2484],
+         [-4.9750, 72.1056,  0.2761],
+         [ 5.2484,  0.2761, 65.6419]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.6029, -4.9750,  5.2484],
+         [-4.9750, 72.1056,  0.2761],
+         [ 5.2484,  0.2761, 65.6419]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 8.8771e+01, -4.2454e+00,  2.0529e-01],
+         [-4.2454e+00,  7.4972e+01,  2.1151e-02],
+         [ 2.0529e-01,  2.1151e-02,  4.7111e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 8.8771e+01, -4.2454e+00,  2.0529e-01],
+         [-4.2454e+00,  7.4972e+01,  2.1151e-02],
+         [ 2.0529e-01,  2.1151e-02,  4.7111e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[66.3316, -1.4433, -4.3422],
+         [-1.4433, 69.8778,  2.8978],
+         [-4.3422,  2.8978, 49.1524]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[66.3316, -1.4433, -4.3422],
+         [-1.4433, 69.8778,  2.8978],
+         [-4.3422,  2.8978, 49.1524]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.4774, -4.1074,  0.9544],
+         [-4.1074, 72.7455,  3.2484],
+         [ 0.9544,  3.2484, 64.1492]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.4774, -4.1074,  0.9544],
+         [-4.1074, 72.7455,  3.2484],
+         [ 0.9544,  3.2484, 64.1492]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.8184,  4.2042, -3.1531],
+         [ 4.2042, 81.5964,  6.3496],
+         [-3.1531,  6.3496, 53.0660]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.8184,  4.2042, -3.1531],
+         [ 4.2042, 81.5964,  6.3496],
+         [-3.1531,  6.3496, 53.0660]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.5492, -0.3303, -6.5758],
+         [-0.3303, 67.0940, -0.1472],
+         [-6.5758, -0.1472, 57.9172]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.5492, -0.3303, -6.5758],
+         [-0.3303, 67.0940, -0.1472],
+         [-6.5758, -0.1472, 57.9172]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.7630e+01, -1.5483e+01, -1.0501e-01],
+         [-1.5483e+01,  8.0807e+01,  4.9498e-02],
+         [-1.0501e-01,  4.9498e-02,  5.0124e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.7630e+01, -1.5483e+01, -1.0501e-01],
+         [-1.5483e+01,  8.0807e+01,  4.9498e-02],
+         [-1.0501e-01,  4.9498e-02,  5.0124e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[68.2664,  4.6943,  4.2776],
+         [ 4.6943, 69.0268,  0.7405],
+         [ 4.2776,  0.7405, 60.5791]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[68.2664,  4.6943,  4.2776],
+         [ 4.6943, 69.0268,  0.7405],
+         [ 4.2776,  0.7405, 60.5791]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[60.3616,  6.9402,  4.2465],
+         [ 6.9402, 78.9099, 12.6967],
+         [ 4.2465, 12.6967, 69.0002]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[60.3616,  6.9402,  4.2465],
+         [ 6.9402, 78.9099, 12.6967],
+         [ 4.2465, 12.6967, 69.0002]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[64.1754, -0.5662, -0.9190],
+         [-0.5662, 63.3395,  0.5101],
+         [-0.9190,  0.5101, 53.6663]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[64.1754, -0.5662, -0.9190],
+         [-0.5662, 63.3395,  0.5101],
+         [-0.9190,  0.5101, 53.6663]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[54.3387, -0.3950, -2.2378],
+         [-0.3950, 66.5547, -0.2241],
+         [-2.2378, -0.2241, 56.1109]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[54.3387, -0.3950, -2.2378],
+         [-0.3950, 66.5547, -0.2241],
+         [-2.2378, -0.2241, 56.1109]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[82.3830, -3.0708,  8.8746],
+         [-3.0708, 68.8879, -3.1297],
+         [ 8.8746, -3.1297, 65.9026]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[82.3830, -3.0708,  8.8746],
+         [-3.0708, 68.8879, -3.1297],
+         [ 8.8746, -3.1297, 65.9026]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.9279, -1.0765,  1.8151],
+         [-1.0765, 73.6671,  1.6299],
+         [ 1.8151,  1.6299, 68.0142]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.9279, -1.0765,  1.8151],
+         [-1.0765, 73.6671,  1.6299],
+         [ 1.8151,  1.6299, 68.0142]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.8207, 13.1168,  7.3025],
+         [13.1168, 92.0968, -1.6538],
+         [ 7.3025, -1.6538, 86.5420]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.8207, 13.1168,  7.3025],
+         [13.1168, 92.0968, -1.6538],
+         [ 7.3025, -1.6538, 86.5420]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[80.7237,  3.4793, -4.5810],
+         [ 3.4793, 78.5381,  0.1966],
+         [-4.5810,  0.1966, 57.9553]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[80.7237,  3.4793, -4.5810],
+         [ 3.4793, 78.5381,  0.1966],
+         [-4.5810,  0.1966, 57.9553]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.4251,  4.3950,  1.0773],
+         [ 4.3950, 69.8442,  6.1883],
+         [ 1.0773,  6.1883, 70.4070]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.4251,  4.3950,  1.0773],
+         [ 4.3950, 69.8442,  6.1883],
+         [ 1.0773,  6.1883, 70.4070]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.8931,  2.5671, -1.0846],
+         [ 2.5671, 87.4408,  2.7038],
+         [-1.0846,  2.7038, 84.8949]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.8931,  2.5671, -1.0846],
+         [ 2.5671, 87.4408,  2.7038],
+         [-1.0846,  2.7038, 84.8949]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 9.2138e+01, -1.0665e+01, -2.3134e-02],
+         [-1.0665e+01,  7.3967e+01,  6.5161e+00],
+         [-2.3134e-02,  6.5161e+00,  5.3237e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 9.2138e+01, -1.0665e+01, -2.3134e-02],
+         [-1.0665e+01,  7.3967e+01,  6.5161e+00],
+         [-2.3134e-02,  6.5161e+00,  5.3237e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[94.5217,  9.5095, -2.4276],
+         [ 9.5095, 77.4771, -1.8902],
+         [-2.4276, -1.8902, 50.3928]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[94.5217,  9.5095, -2.4276],
+         [ 9.5095, 77.4771, -1.8902],
+         [-2.4276, -1.8902, 50.3928]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 59.9395,  -1.4004, -11.5662],
+         [ -1.4004,  67.8510,  12.5891],
+         [-11.5662,  12.5891,  71.6728]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 59.9395,  -1.4004, -11.5662],
+         [ -1.4004,  67.8510,  12.5891],
+         [-11.5662,  12.5891,  71.6728]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.0335,  1.8933, -2.2034],
+         [ 1.8933, 66.8886,  1.9137],
+         [-2.2034,  1.9137, 74.2544]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.0335,  1.8933, -2.2034],
+         [ 1.8933, 66.8886,  1.9137],
+         [-2.2034,  1.9137, 74.2544]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[70.7082, 11.1599,  5.1867],
+         [11.1599, 90.8226, -4.3598],
+         [ 5.1867, -4.3598, 67.0211]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[70.7082, 11.1599,  5.1867],
+         [11.1599, 90.8226, -4.3598],
+         [ 5.1867, -4.3598, 67.0211]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[104.4004,  13.3034,  -4.8278],
+         [ 13.3034,  84.0580,  -1.3556],
+         [ -4.8278,  -1.3556,  78.6476]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[104.4004,  13.3034,  -4.8278],
+         [ 13.3034,  84.0580,  -1.3556],
+         [ -4.8278,  -1.3556,  78.6476]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.4027,  0.2426,  3.8036],
+         [ 0.2426, 68.8276, -1.0414],
+         [ 3.8036, -1.0414, 58.1737]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.4027,  0.2426,  3.8036],
+         [ 0.2426, 68.8276, -1.0414],
+         [ 3.8036, -1.0414, 58.1737]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[107.4304,   0.4873,   0.7387],
+         [  0.4873, 103.1498,   5.1405],
+         [  0.7387,   5.1405,  61.7422]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[107.4304,   0.4873,   0.7387],
+         [  0.4873, 103.1498,   5.1405],
+         [  0.7387,   5.1405,  61.7422]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[112.6865,  15.3380,   2.6813],
+         [ 15.3380,  74.4953,   9.8209],
+         [  2.6813,   9.8209,  57.4949]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[112.6865,  15.3380,   2.6813],
+         [ 15.3380,  74.4953,   9.8209],
+         [  2.6813,   9.8209,  57.4949]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[86.1327,  1.8630, -3.2482],
+         [ 1.8630, 78.6244,  1.5665],
+         [-3.2482,  1.5665, 77.3142]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[86.1327,  1.8630, -3.2482],
+         [ 1.8630, 78.6244,  1.5665],
+         [-3.2482,  1.5665, 77.3142]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[88.0777,  5.4121, -4.1622],
+         [ 5.4121, 79.4015, -3.3524],
+         [-4.1622, -3.3524, 76.5901]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[88.0777,  5.4121, -4.1622],
+         [ 5.4121, 79.4015, -3.3524],
+         [-4.1622, -3.3524, 76.5901]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.3044,  9.6014, -6.1113],
+         [ 9.6014, 61.1696,  5.0710],
+         [-6.1113,  5.0710, 61.9487]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.3044,  9.6014, -6.1113],
+         [ 9.6014, 61.1696,  5.0710],
+         [-6.1113,  5.0710, 61.9487]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[ 82.8254,  12.5902, -13.6670],
+         [ 12.5902,  77.5313,  -8.3011],
+         [-13.6670,  -8.3011,  81.7274]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[ 82.8254,  12.5902, -13.6670],
+         [ 12.5902,  77.5313,  -8.3011],
+         [-13.6670,  -8.3011,  81.7274]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.2395,  2.4652,  1.3875],
+         [ 2.4652, 90.9088,  3.0052],
+         [ 1.3875,  3.0052, 58.2033]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.2395,  2.4652,  1.3875],
+         [ 2.4652, 90.9088,  3.0052],
+         [ 1.3875,  3.0052, 58.2033]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[78.4259,  4.8233, -2.7178],
+         [ 4.8233, 71.6454, -2.9784],
+         [-2.7178, -2.9784, 69.9358]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[78.4259,  4.8233, -2.7178],
+         [ 4.8233, 71.6454, -2.9784],
+         [-2.7178, -2.9784, 69.9358]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[84.4162, 11.7775,  4.7064],
+         [11.7775, 72.5564,  2.2730],
+         [ 4.7064,  2.2730, 51.0345]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[84.4162, 11.7775,  4.7064],
+         [11.7775, 72.5564,  2.2730],
+         [ 4.7064,  2.2730, 51.0345]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[74.7767,  7.7865, -3.4999],
+         [ 7.7865, 64.2741, -2.7327],
+         [-3.4999, -2.7327, 60.1983]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[74.7767,  7.7865, -3.4999],
+         [ 7.7865, 64.2741, -2.7327],
+         [-3.4999, -2.7327, 60.1983]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[8.5176e+01, 6.2333e-02, 4.1011e-02],
+         [6.2333e-02, 8.5513e+01, 6.2648e-01],
+         [4.1011e-02, 6.2648e-01, 7.2660e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[8.5176e+01, 6.2333e-02, 4.1011e-02],
+         [6.2333e-02, 8.5513e+01, 6.2648e-01],
+         [4.1011e-02, 6.2648e-01, 7.2660e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[53.0647,  6.0713, -5.7999],
+         [ 6.0713, 62.0867,  3.4637],
+         [-5.7999,  3.4637, 50.9567]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[53.0647,  6.0713, -5.7999],
+         [ 6.0713, 62.0867,  3.4637],
+         [-5.7999,  3.4637, 50.9567]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[120.9210,   7.9385,   6.4317],
+         [  7.9385,  69.9762,   4.5352],
+         [  6.4317,   4.5352,  67.8159]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[120.9210,   7.9385,   6.4317],
+         [  7.9385,  69.9762,   4.5352],
+         [  6.4317,   4.5352,  67.8159]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[76.8639,  9.3404,  6.9726],
+         [ 9.3404, 58.9006,  5.3899],
+         [ 6.9726,  5.3899, 67.4373]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[76.8639,  9.3404,  6.9726],
+         [ 9.3404, 58.9006,  5.3899],
+         [ 6.9726,  5.3899, 67.4373]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[9.8548e+01, 8.6498e+00, 3.3007e+00],
+         [8.6498e+00, 7.0664e+01, 9.2224e-02],
+         [3.3007e+00, 9.2224e-02, 6.4501e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[9.8548e+01, 8.6498e+00, 3.3007e+00],
+         [8.6498e+00, 7.0664e+01, 9.2224e-02],
+         [3.3007e+00, 9.2224e-02, 6.4501e+01]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[85.2672, -4.8550,  7.1927],
+         [-4.8550, 67.4370, -2.6648],
+         [ 7.1927, -2.6648, 64.0253]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[85.2672, -4.8550,  7.1927],
+         [-4.8550, 67.4370, -2.6648],
+         [ 7.1927, -2.6648, 64.0253]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.5381, 15.3171,  2.9103],
+         [15.3171, 78.7627,  7.1354],
+         [ 2.9103,  7.1354, 68.7676]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.5381, 15.3171,  2.9103],
+         [15.3171, 78.7627,  7.1354],
+         [ 2.9103,  7.1354, 68.7676]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[86.0502,  1.7058, -1.4937],
+         [ 1.7058, 74.4187,  5.9835],
+         [-1.4937,  5.9835, 76.3396]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[86.0502,  1.7058, -1.4937],
+         [ 1.7058, 74.4187,  5.9835],
+         [-1.4937,  5.9835, 76.3396]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[90.1570, 15.3354,  0.0927],
+         [15.3354, 78.1579,  0.1952],
+         [ 0.0927,  0.1952, 45.9023]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[90.1570, 15.3354,  0.0927],
+         [15.3354, 78.1579,  0.1952],
+         [ 0.0927,  0.1952, 45.9023]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[67.2239, -1.4178, -7.2031],
+         [-1.4178, 62.1654,  2.5515],
+         [-7.2031,  2.5515, 72.8906]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[67.2239, -1.4178, -7.2031],
+         [-1.4178, 62.1654,  2.5515],
+         [-7.2031,  2.5515, 72.8906]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.9301, 19.3373, -0.6392],
+         [19.3373, 99.9763, -0.3602],
+         [-0.6392, -0.3602, 63.5313]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.9301, 19.3373, -0.6392],
+         [19.3373, 99.9763, -0.3602],
+         [-0.6392, -0.3602, 63.5313]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[81.8104,  5.6082, -0.2840],
+         [ 5.6082, 68.8195, -0.4310],
+         [-0.2840, -0.4310, 43.4689]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[81.8104,  5.6082, -0.2840],
+         [ 5.6082, 68.8195, -0.4310],
+         [-0.2840, -0.4310, 43.4689]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[62.0418, 13.6389, -1.8926],
+         [13.6389, 97.6979,  8.4902],
+         [-1.8926,  8.4902, 57.8983]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[62.0418, 13.6389, -1.8926],
+         [13.6389, 97.6979,  8.4902],
+         [-1.8926,  8.4902, 57.8983]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[69.1011,  8.6715, -3.1753],
+         [ 8.6715, 68.1900, -2.3522],
+         [-3.1753, -2.3522, 56.4407]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[69.1011,  8.6715, -3.1753],
+         [ 8.6715, 68.1900, -2.3522],
+         [-3.1753, -2.3522, 56.4407]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[79.6347, 12.5095,  8.6031],
+         [12.5095, 95.6382, -0.3940],
+         [ 8.6031, -0.3940, 84.3300]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[79.6347, 12.5095,  8.6031],
+         [12.5095, 95.6382, -0.3940],
+         [ 8.6031, -0.3940, 84.3300]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[73.5488,  4.4730, -0.4995],
+         [ 4.4730, 77.1558, -1.6040],
+         [-0.4995, -1.6040, 81.8600]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[73.5488,  4.4730, -0.4995],
+         [ 4.4730, 77.1558, -1.6040],
+         [-0.4995, -1.6040, 81.8600]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+predict results: tensor([[[87.7912,  2.4295, -1.6655],
+         [ 2.4295, 72.1470,  5.8039],
+         [-1.6655,  5.8039, 51.4973]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
+target results tensor([[[87.7912,  2.4295, -1.6655],
+         [ 2.4295, 72.1470,  5.8039],
+         [-1.6655,  5.8039, 51.4973]]], dtype=torch.float64,
+       grad_fn=<ToCopyBackward0>)
